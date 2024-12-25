@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii concesive?</prompt>
+                    <simpleChoice identifier="A">obwohl (deși)</simpleChoice>
+                    <simpleChoice identifier="B">weil (pentru că)</simpleChoice>
+                    <simpleChoice identifier="C">dann (atunci)</simpleChoice>
+                    <simpleChoice identifier="D">trotzdem (cu toate acestea)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este continuarea corectă: "Obwohl es regnet, ..."?</prompt>
+                    <simpleChoice identifier="A">ich bleibe zu Hause weil</simpleChoice>
+                    <simpleChoice identifier="B">gehe ich spazieren</simpleChoice>
+                    <simpleChoice identifier="C">ich gehe spazieren</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>trotz des schlechten Wetters</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Transformați în expresie cu trotz: "Obwohl das Wetter schlecht ist" → "___ ___ ___ ___"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale propozițiilor concesive?</prompt>
+                    <simpleChoice identifier="A">Exprimă cauza</simpleChoice>
+                    <simpleChoice identifier="B">Exprimă o opoziție</simpleChoice>
+                    <simpleChoice identifier="C">Indică timpul</simpleChoice>
+                    <simpleChoice identifier="D">Arată un contrast</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este varianta corectă pentru "în ciuda ploii"?</prompt>
+                    <simpleChoice identifier="A">trotz des Regens</simpleChoice>
+                    <simpleChoice identifier="B">wegen des Regens</simpleChoice>
+                    <simpleChoice identifier="C">mit dem Regen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>ungeachtet der Schwierigkeiten</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați expresia concesivă: "___ ___ ___" (indiferent de dificultăți)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt conjuncții concesive?</prompt>
+                    <simpleChoice identifier="A">obschon</simpleChoice>
+                    <simpleChoice identifier="B">denn</simpleChoice>
+                    <simpleChoice identifier="C">wenn auch</simpleChoice>
+                    <simpleChoice identifier="D">nachdem</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este topica corectă pentru "Trotzdem"?</prompt>
+                    <simpleChoice identifier="A">Trotzdem ich gehe ins Kino</simpleChoice>
+                    <simpleChoice identifier="B">Trotzdem gehe ich ins Kino</simpleChoice>
+                    <simpleChoice identifier="C">Trotzdem ich ins Kino gehe</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele prepoziții pot exprima concesia?</prompt>
+                    <simpleChoice identifier="A">mit</simpleChoice>
+                    <simpleChoice identifier="B">trotz</simpleChoice>
+                    <simpleChoice identifier="C">für</simpleChoice>
+                    <simpleChoice identifier="D">ungeachtet</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre expresiile concesive?</prompt>
+                    <simpleChoice identifier="A">Pot fi exprimate prin prepoziții</simpleChoice>
+                    <simpleChoice identifier="B">Nu pot fi folosite cu conjunctiv</simpleChoice>
+                    <simpleChoice identifier="C">Exprimă o contradicție logică</simpleChoice>
+                    <simpleChoice identifier="D">Nu influențează topica</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

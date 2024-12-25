@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții au o concordanță corectă a timpurilor?</prompt>
+                    <simpleChoice identifier="A">Er sagte, dass er krank war (El a spus că era bolnav)</simpleChoice>
+                    <simpleChoice identifier="B">Er sagte, dass er krank ist (El a spus că este bolnav)</simpleChoice>
+                    <simpleChoice identifier="C">Er hat gesagt, dass er krank gewesen wird (El a spus că va fi fost bolnav)</simpleChoice>
+                    <simpleChoice identifier="D">Nachdem er gegessen hatte, ging er schlafen (După ce mâncase, s-a dus la culcare)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "El mi-a spus că va veni"?</prompt>
+                    <simpleChoice identifier="A">Er hat mir gesagt, dass er kommt</simpleChoice>
+                    <simpleChoice identifier="B">Er sagte mir, dass er kommen würde</simpleChoice>
+                    <simpleChoice identifier="C">Er sagt mir, dass er kommen wird</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>hatte geschlafen als er kam</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați propoziția: "Ich ___ ___ ___ ___ ___." (Eu dormisem când el a venit)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt reguli de concordanță a timpurilor?</prompt>
+                    <simpleChoice identifier="A">Prezentul se folosește întotdeauna în subordonate</simpleChoice>
+                    <simpleChoice identifier="B">Mai mult ca perfectul exprimă anterioritatea față de trecut</simpleChoice>
+                    <simpleChoice identifier="C">Viitorul rămâne neschimbat în vorbirea indirectă</simpleChoice>
+                    <simpleChoice identifier="D">În vorbirea indirectă, prezentul devine imperfect</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este traducerea corectă pentru "Bevor ich zur Arbeit ging, hatte ich gefrühstückt"?</prompt>
+                    <simpleChoice identifier="A">Înainte să merg la muncă, luasem micul dejun</simpleChoice>
+                    <simpleChoice identifier="B">Înainte să merg la muncă, iau micul dejun</simpleChoice>
+                    <simpleChoice identifier="C">Înainte să merg la muncă, voi lua micul dejun</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>würde kommen wenn er Zeit hätte</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați propoziția: "Er sagte, er ___ ___ ___ ___ ___." (El a spus că ar veni dacă ar avea timp)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele conjuncții necesită mai mult ca perfectul?</prompt>
+                    <simpleChoice identifier="A">nachdem (după ce)</simpleChoice>
+                    <simpleChoice identifier="B">wenn (dacă)</simpleChoice>
+                    <simpleChoice identifier="C">bevor (înainte să)</simpleChoice>
+                    <simpleChoice identifier="D">weil (pentru că)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Ea a întrebat dacă am fost la Berlin"?</prompt>
+                    <simpleChoice identifier="A">Sie fragt, ob ich in Berlin war</simpleChoice>
+                    <simpleChoice identifier="B">Sie fragte, ob ich in Berlin gewesen war</simpleChoice>
+                    <simpleChoice identifier="C">Sie hat gefragt, ob ich in Berlin bin</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt corecte în vorbirea indirectă la trecut?</prompt>
+                    <simpleChoice identifier="A">Prezentul rămâne neschimbat</simpleChoice>
+                    <simpleChoice identifier="B">Perfectul devine mai mult ca perfect</simpleChoice>
+                    <simpleChoice identifier="C">Viitorul rămâne neschimbat</simpleChoice>
+                    <simpleChoice identifier="D">Prezentul devine imperfect</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre concordanța timpurilor?</prompt>
+                    <simpleChoice identifier="A">Depinde de timpul din propoziția principală</simpleChoice>
+                    <simpleChoice identifier="B">Se aplică doar în vorbirea indirectă</simpleChoice>
+                    <simpleChoice identifier="C">Ajută la stabilirea ordinii cronologice</simpleChoice>
+                    <simpleChoice identifier="D">Este identică în germană și română</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

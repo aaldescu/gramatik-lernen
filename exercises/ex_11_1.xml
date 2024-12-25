@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt forme corecte de Konjunktiv II prezent?</prompt>
+                    <simpleChoice identifier="A">ich wäre (a fi)</simpleChoice>
+                    <simpleChoice identifier="B">ich bin (a fi)</simpleChoice>
+                    <simpleChoice identifier="C">ich wurde (a deveni)</simpleChoice>
+                    <simpleChoice identifier="D">ich hätte (a avea)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă de Konjunktiv II trecut pentru "ich gehe" (eu merg)?</prompt>
+                    <simpleChoice identifier="A">ich ginge</simpleChoice>
+                    <simpleChoice identifier="B">ich wäre gegangen</simpleChoice>
+                    <simpleChoice identifier="C">ich ging</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>käme</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu forma de Konjunktiv II prezent a verbului "kommen": "Wenn ich Zeit hätte, ___ ich." (Dacă aș avea timp, aș veni)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">Se folosește doar la prezent</simpleChoice>
+                    <simpleChoice identifier="B">Exprimă situații ireale sau ipotetice</simpleChoice>
+                    <simpleChoice identifier="C">Are aceeași formă ca indicativul</simpleChoice>
+                    <simpleChoice identifier="D">Poate exprima dorințe</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Aș fi putut"?</prompt>
+                    <simpleChoice identifier="A">Ich hätte gekonnt</simpleChoice>
+                    <simpleChoice identifier="B">Ich könnte haben</simpleChoice>
+                    <simpleChoice identifier="C">Ich wurde können</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>hätte gelesen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu forma de Konjunktiv II trecut: "Ich ___ ___ wenn ich Zeit gehabt hätte." (Aș fi citit dacă aș fi avut timp)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe au forme speciale de Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">sein (wäre)</simpleChoice>
+                    <simpleChoice identifier="B">machen (machte)</simpleChoice>
+                    <simpleChoice identifier="C">haben (hätte)</simpleChoice>
+                    <simpleChoice identifier="D">lernen (lernte)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Cum se formează Konjunktiv II trecut?</prompt>
+                    <simpleChoice identifier="A">würde + Infinitiv</simpleChoice>
+                    <simpleChoice identifier="B">hätte/wäre + Partizip II</simpleChoice>
+                    <simpleChoice identifier="C">hatte + Partizip II</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">Wenn ich Zeit habe, komme ich</simpleChoice>
+                    <simpleChoice identifier="B">Wenn ich Zeit hätte, käme ich</simpleChoice>
+                    <simpleChoice identifier="C">Wenn ich Zeit hatte, kam ich</simpleChoice>
+                    <simpleChoice identifier="D">Wenn ich Zeit gehabt hätte, wäre ich gekommen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">Se folosește pentru situații ireale în prezent și trecut</simpleChoice>
+                    <simpleChoice identifier="B">Are aceeași formă pentru toate verbele</simpleChoice>
+                    <simpleChoice identifier="C">Verbele neregulate au forme speciale</simpleChoice>
+                    <simpleChoice identifier="D">Se folosește doar la trecut</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

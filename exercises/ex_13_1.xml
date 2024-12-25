@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale participiului prezent în germană?</prompt>
+                    <simpleChoice identifier="A">Se formează cu sufixul -end</simpleChoice>
+                    <simpleChoice identifier="B">Se formează cu prefixul ge-</simpleChoice>
+                    <simpleChoice identifier="C">Descrie acțiuni trecute</simpleChoice>
+                    <simpleChoice identifier="D">Poate fi folosit ca adjectiv</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este participiul prezent corect al verbului "lachen" (a râde)?</prompt>
+                    <simpleChoice identifier="A">gelacht</simpleChoice>
+                    <simpleChoice identifier="B">lachend</simpleChoice>
+                    <simpleChoice identifier="C">gelachend</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>spielende</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu participiul prezent: "Die ___ Kinder sind im Garten." (Copiii care se joacă sunt în grădină)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt funcții ale participiului prezent?</prompt>
+                    <simpleChoice identifier="A">Formarea perfectului</simpleChoice>
+                    <simpleChoice identifier="B">Atribut adjectival</simpleChoice>
+                    <simpleChoice identifier="C">Predicat principal</simpleChoice>
+                    <simpleChoice identifier="D">Construcții adverbiale</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este traducerea corectă pentru "der singende Vogel"?</prompt>
+                    <simpleChoice identifier="A">pasărea care cântă</simpleChoice>
+                    <simpleChoice identifier="B">pasărea a cântat</simpleChoice>
+                    <simpleChoice identifier="C">pasărea va cânta</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>weinend</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu participiul prezent: "Das Kind saß ___ in der Ecke." (Copilul stătea plângând în colț)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt adevărate despre declinarea participiului prezent?</prompt>
+                    <simpleChoice identifier="A">Se declină ca un adjectiv</simpleChoice>
+                    <simpleChoice identifier="B">Nu se declină niciodată</simpleChoice>
+                    <simpleChoice identifier="C">Urmează regulile adjectivelor slabe/tari</simpleChoice>
+                    <simpleChoice identifier="D">Are forme speciale de declinare</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "apa care curge"?</prompt>
+                    <simpleChoice identifier="A">das geflossene Wasser</simpleChoice>
+                    <simpleChoice identifier="B">das fließende Wasser</simpleChoice>
+                    <simpleChoice identifier="C">das fließen Wasser</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt utilizări corecte ale participiului prezent?</prompt>
+                    <simpleChoice identifier="A">Pentru a forma timpul trecut</simpleChoice>
+                    <simpleChoice identifier="B">Ca atribut înaintea substantivului</simpleChoice>
+                    <simpleChoice identifier="C">Ca verb principal</simpleChoice>
+                    <simpleChoice identifier="D">Pentru a descrie acțiuni simultane</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre participiul prezent?</prompt>
+                    <simpleChoice identifier="A">Exprimă o acțiune în desfășurare</simpleChoice>
+                    <simpleChoice identifier="B">Se folosește pentru a forma perfectul</simpleChoice>
+                    <simpleChoice identifier="C">Poate fi substantivizat</simpleChoice>
+                    <simpleChoice identifier="D">Nu poate fi folosit adverbial</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

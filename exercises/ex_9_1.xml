@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următorii sunt conectori coordonatori în germană?</prompt>
+                    <simpleChoice identifier="A">und (și)</simpleChoice>
+                    <simpleChoice identifier="B">weil (pentru că)</simpleChoice>
+                    <simpleChoice identifier="C">dass (că)</simpleChoice>
+                    <simpleChoice identifier="D">oder (sau)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă în propoziția: "Ich lerne Deutsch, ___ ich mag die Sprache."?</prompt>
+                    <simpleChoice identifier="A">weil mag ich die Sprache</simpleChoice>
+                    <simpleChoice identifier="B">weil ich die Sprache mag</simpleChoice>
+                    <simpleChoice identifier="C">weil ich mag die Sprache</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>aber</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu conectorul potrivit (și, dar): "Ich möchte kommen, ___ ich habe keine Zeit."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale conectorilor coordonatori?</prompt>
+                    <simpleChoice identifier="A">Verbul merge la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="B">Nu schimbă ordinea cuvintelor</simpleChoice>
+                    <simpleChoice identifier="C">Introduc întotdeauna propoziții subordonate</simpleChoice>
+                    <simpleChoice identifier="D">Leagă propoziții de același rang</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este conectorul corect în: "Er ist krank, ___ geht er zur Arbeit."?</prompt>
+                    <simpleChoice identifier="A">trotzdem</simpleChoice>
+                    <simpleChoice identifier="B">weil</simpleChoice>
+                    <simpleChoice identifier="C">und</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>denn</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu conectorul potrivit (pentru că): "Ich bleibe zu Hause, ___ es regnet."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect conectorul "und"?</prompt>
+                    <simpleChoice identifier="A">Ich lerne Deutsch und ich höre Musik</simpleChoice>
+                    <simpleChoice identifier="B">Ich lerne Deutsch und höre ich Musik</simpleChoice>
+                    <simpleChoice identifier="C">Er kocht und sie isst</simpleChoice>
+                    <simpleChoice identifier="D">Sie tanzt und wir singen können</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este diferența între "denn" și "weil"?</prompt>
+                    <simpleChoice identifier="A">Nu există nicio diferență</simpleChoice>
+                    <simpleChoice identifier="B">"denn" nu schimbă ordinea cuvintelor, "weil" trimite verbul la final</simpleChoice>
+                    <simpleChoice identifier="C">"weil" nu schimbă ordinea cuvintelor, "denn" trimite verbul la final</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următorii conectori exprimă opoziție?</prompt>
+                    <simpleChoice identifier="A">und</simpleChoice>
+                    <simpleChoice identifier="B">aber</simpleChoice>
+                    <simpleChoice identifier="C">oder</simpleChoice>
+                    <simpleChoice identifier="D">sondern</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt adevărate despre conectorul "oder"?</prompt>
+                    <simpleChoice identifier="A">Exprimă alternativă</simpleChoice>
+                    <simpleChoice identifier="B">Trimite verbul la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">Poate lega cuvinte sau propoziții</simpleChoice>
+                    <simpleChoice identifier="D">Poate fi folosit doar între propoziții</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

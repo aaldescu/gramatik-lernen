@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt alternative pentru exprimarea pasivului?</prompt>
+                    <simpleChoice identifier="A">man + verb activ</simpleChoice>
+                    <simpleChoice identifier="B">werden + Infinitiv</simpleChoice>
+                    <simpleChoice identifier="C">haben + Partizip II</simpleChoice>
+                    <simpleChoice identifier="D">sein + zu + Infinitiv</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este alternativa corectă pentru "Das Buch wird gelesen" folosind "man"?</prompt>
+                    <simpleChoice identifier="A">Man wird das Buch lesen</simpleChoice>
+                    <simpleChoice identifier="B">Man liest das Buch</simpleChoice>
+                    <simpleChoice identifier="C">Man hat das Buch gelesen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>ist zu machen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu alternativa pasivă corectă folosind "sein + zu": "Die Hausaufgabe ___ ___ ___." (Tema trebuie făcută)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele construcții exprimă posibilitatea sau necesitatea?</prompt>
+                    <simpleChoice identifier="A">man + Verb</simpleChoice>
+                    <simpleChoice identifier="B">sein + zu + Infinitiv</simpleChoice>
+                    <simpleChoice identifier="C">haben + Partizip II</simpleChoice>
+                    <simpleChoice identifier="D">lassen + sich + Infinitiv</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Problema se poate rezolva" folosind "lassen"?</prompt>
+                    <simpleChoice identifier="A">Das Problem lässt sich lösen</simpleChoice>
+                    <simpleChoice identifier="B">Das Problem ist zu lösen</simpleChoice>
+                    <simpleChoice identifier="C">Man löst das Problem</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>lässt sich öffnen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu forma reflexivă cu "lassen": "Die Tür ___ ___ ___." (Ușa se poate deschide)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect "man"?</prompt>
+                    <simpleChoice identifier="A">Man spricht hier Deutsch</simpleChoice>
+                    <simpleChoice identifier="B">Man wird hier Deutsch sprechen</simpleChoice>
+                    <simpleChoice identifier="C">Man kann das nicht verstehen</simpleChoice>
+                    <simpleChoice identifier="D">Man ist das verstanden</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este diferența principală între "sein + zu" și "lassen + sich"?</prompt>
+                    <simpleChoice identifier="A">Nu există nicio diferență</simpleChoice>
+                    <simpleChoice identifier="B">"sein + zu" exprimă necesitate, "lassen + sich" exprimă posibilitate</simpleChoice>
+                    <simpleChoice identifier="C">Doar "sein + zu" poate fi folosit la trecut</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt avantaje ale folosirii lui "man"?</prompt>
+                    <simpleChoice identifier="A">Este mai formal decât pasivul</simpleChoice>
+                    <simpleChoice identifier="B">Este mai simplu de conjugat</simpleChoice>
+                    <simpleChoice identifier="C">Poate fi folosit doar la prezent</simpleChoice>
+                    <simpleChoice identifier="D">Este mai natural în vorbirea curentă</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre alternativele pasivului?</prompt>
+                    <simpleChoice identifier="A">Oferă mai multă flexibilitate în exprimare</simpleChoice>
+                    <simpleChoice identifier="B">Sunt întotdeauna mai formale decât pasivul</simpleChoice>
+                    <simpleChoice identifier="C">Pot exprima nuanțe diferite de sens</simpleChoice>
+                    <simpleChoice identifier="D">Nu pot fi folosite cu verbe modale</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

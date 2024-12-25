@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt structuri comparative în germană?</prompt>
+                    <simpleChoice identifier="A">wie ein Fisch im Wasser</simpleChoice>
+                    <simpleChoice identifier="B">mit dem Auto</simpleChoice>
+                    <simpleChoice identifier="C">ohne Probleme</simpleChoice>
+                    <simpleChoice identifier="D">als ob es gestern wäre</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este metafora corectă pentru "a fi foarte fericit"?</prompt>
+                    <simpleChoice identifier="A">wie ein Stein sein</simpleChoice>
+                    <simpleChoice identifier="B">im siebten Himmel sein</simpleChoice>
+                    <simpleChoice identifier="C">unter der Brücke sein</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>wie ein Blitz</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați comparația: "Er ist schnell ___ ___ ___" (El este rapid ca fulgerul)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale metaforelor în germană?</prompt>
+                    <simpleChoice identifier="A">Sunt întotdeauna literale</simpleChoice>
+                    <simpleChoice identifier="B">Folosesc imagini figurative</simpleChoice>
+                    <simpleChoice identifier="C">Nu pot fi traduse</simpleChoice>
+                    <simpleChoice identifier="D">Au semnificații culturale</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este comparația corectă pentru "a dormi profund"?</prompt>
+                    <simpleChoice identifier="A">wie ein Stein schlafen</simpleChoice>
+                    <simpleChoice identifier="B">wie ein Vogel schlafen</simpleChoice>
+                    <simpleChoice identifier="C">wie ein Fisch schlafen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>als hätte er Flügel</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați comparația: "Er rennt, ___ ___ ___ ___" (Aleargă ca și cum ar avea aripi)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt structuri pentru comparații?</prompt>
+                    <simpleChoice identifier="A">wie + Nominativ</simpleChoice>
+                    <simpleChoice identifier="B">mit + Dativ</simpleChoice>
+                    <simpleChoice identifier="C">als ob + Konjunktiv</simpleChoice>
+                    <simpleChoice identifier="D">bei + Dativ</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este metafora corectă pentru "a fi foarte sărac"?</prompt>
+                    <simpleChoice identifier="A">reich wie ein König sein</simpleChoice>
+                    <simpleChoice identifier="B">arm wie eine Kirchenmaus sein</simpleChoice>
+                    <simpleChoice identifier="C">stark wie ein Löwe sein</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt metafore pentru emoții?</prompt>
+                    <simpleChoice identifier="A">wie ein Haus sein</simpleChoice>
+                    <simpleChoice identifier="B">Schmetterlinge im Bauch haben</simpleChoice>
+                    <simpleChoice identifier="C">wie ein Tisch stehen</simpleChoice>
+                    <simpleChoice identifier="D">Feuer und Flamme sein</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre metafore și comparații în germană?</prompt>
+                    <simpleChoice identifier="A">Pot folosi elemente din natură</simpleChoice>
+                    <simpleChoice identifier="B">Sunt mereu negative</simpleChoice>
+                    <simpleChoice identifier="C">Reflectă aspecte culturale</simpleChoice>
+                    <simpleChoice identifier="D">Nu pot fi folosite în scris</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

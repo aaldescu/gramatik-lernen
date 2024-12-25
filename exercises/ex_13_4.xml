@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii idiomatice cu participii în germană?</prompt>
+                    <simpleChoice identifier="A">ausgeschlossen (exclus)</simpleChoice>
+                    <simpleChoice identifier="B">schnell (rapid)</simpleChoice>
+                    <simpleChoice identifier="C">jetzt (acum)</simpleChoice>
+                    <simpleChoice identifier="D">abgemacht (s-a făcut)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă expresia "gesagt, getan"?</prompt>
+                    <simpleChoice identifier="A">a spune și a face</simpleChoice>
+                    <simpleChoice identifier="B">zis și făcut</simpleChoice>
+                    <simpleChoice identifier="C">spune și fă</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>verloren</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați expresia: "Zeit ist Geld, Zeit ___ ist Geld ___." (Timpul înseamnă bani, timpul pierdut înseamnă bani pierduți)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale expresiilor idiomatice cu participii?</prompt>
+                    <simpleChoice identifier="A">Sunt folosite doar în scris</simpleChoice>
+                    <simpleChoice identifier="B">Au un sens figurat</simpleChoice>
+                    <simpleChoice identifier="C">Nu pot fi modificate</simpleChoice>
+                    <simpleChoice identifier="D">Sunt frecvente în vorbirea cotidiană</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă "gut gemeint"?</prompt>
+                    <simpleChoice identifier="A">cu intenții bune</simpleChoice>
+                    <simpleChoice identifier="B">bine făcut</simpleChoice>
+                    <simpleChoice identifier="C">bine gândit</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>versprochen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați expresia: "_____ ist _____!" (Promis este promis!)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii cu participiul trecut?</prompt>
+                    <simpleChoice identifier="A">wie gewonnen, so zerronnen</simpleChoice>
+                    <simpleChoice identifier="B">wie immer</simpleChoice>
+                    <simpleChoice identifier="C">gut gedacht, schlecht gemacht</simpleChoice>
+                    <simpleChoice identifier="D">so oder so</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă "Ende gut, alles gut"?</prompt>
+                    <simpleChoice identifier="A">Totul e bine când se termină</simpleChoice>
+                    <simpleChoice identifier="B">Totul e bine când se termină cu bine</simpleChoice>
+                    <simpleChoice identifier="C">Sfârșitul e mereu bun</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii folosite pentru a încheia o conversație?</prompt>
+                    <simpleChoice identifier="A">gut gemeint</simpleChoice>
+                    <simpleChoice identifier="B">abgemacht</simpleChoice>
+                    <simpleChoice identifier="C">wie gewonnen</simpleChoice>
+                    <simpleChoice identifier="D">ausgemacht</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre expresiile idiomatice cu participii?</prompt>
+                    <simpleChoice identifier="A">Multe exprimă concluzii sau rezultate</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar în limba scrisă</simpleChoice>
+                    <simpleChoice identifier="C">Pot avea structuri fixe sau variabile</simpleChoice>
+                    <simpleChoice identifier="D">Sunt întotdeauna lungi</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

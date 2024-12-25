@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="1">
+                    <prompt>Care este pronumele personal corect pentru "tu" în germană?</prompt>
+                    <simpleChoice identifier="A">ich</simpleChoice>
+                    <simpleChoice identifier="B">du</simpleChoice>
+                    <simpleChoice identifier="C">er</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt pronume personale pentru persoana a III-a singular?</prompt>
+                    <simpleChoice identifier="A">er (el)</simpleChoice>
+                    <simpleChoice identifier="B">wir (noi)</simpleChoice>
+                    <simpleChoice identifier="C">ihr (voi)</simpleChoice>
+                    <simpleChoice identifier="D">es (el/ea - neutru)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Sie</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Care este forma de politețe pentru "dumneavoastră" în germană? (Scrieți cu majusculă)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="1">
+                    <prompt>Care este pronumele personal corect pentru "noi" în germană?</prompt>
+                    <simpleChoice identifier="A">sie</simpleChoice>
+                    <simpleChoice identifier="B">ihr</simpleChoice>
+                    <simpleChoice identifier="C">wir</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este diferența dintre "sie" și "Sie"?</prompt>
+                    <simpleChoice identifier="A">"sie" = ea/ei/ele, "Sie" = dumneavoastră (formal)</simpleChoice>
+                    <simpleChoice identifier="B">"sie" = tu, "Sie" = voi</simpleChoice>
+                    <simpleChoice identifier="C">Nu există nicio diferență</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE6" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt corecte despre pronumele "es"?</prompt>
+                    <simpleChoice identifier="A">Se folosește doar pentru obiecte</simpleChoice>
+                    <simpleChoice identifier="B">Se folosește pentru substantive neutre</simpleChoice>
+                    <simpleChoice identifier="C">Este întotdeauna scris cu majusculă</simpleChoice>
+                    <simpleChoice identifier="D">Se folosește pentru cuvântul "Kind" (copil)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>ihr</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE7">
+                    <prompt>Care este pronumele personal pentru "voi" în germană? (folosiți litere mici)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care pronume se folosește pentru "ea" în germană?</prompt>
+                    <simpleChoice identifier="A">er</simpleChoice>
+                    <simpleChoice identifier="B">sie</simpleChoice>
+                    <simpleChoice identifier="C">es</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt pronume pentru persoana I?</prompt>
+                    <simpleChoice identifier="A">ich (eu)</simpleChoice>
+                    <simpleChoice identifier="B">du (tu)</simpleChoice>
+                    <simpleChoice identifier="C">wir (noi)</simpleChoice>
+                    <simpleChoice identifier="D">ihr (voi)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="1">
+                    <prompt>Când folosim "Sie" cu majusculă?</prompt>
+                    <simpleChoice identifier="A">Când vorbim despre o femeie</simpleChoice>
+                    <simpleChoice identifier="B">La începutul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">Pentru adresarea formală (dumneavoastră)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>bist</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE1">
+                    <prompt>Completați forma corectă a verbului "sein" pentru pronumele "du":</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele forme ale verbului "haben" sunt corecte?</prompt>
+                    <simpleChoice identifier="A">ich habe (eu am)</simpleChoice>
+                    <simpleChoice identifier="B">du habst (tu ai)</simpleChoice>
+                    <simpleChoice identifier="C">er hab (el are)</simpleChoice>
+                    <simpleChoice identifier="D">wir haben (noi avem)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE3" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "ea este"?</prompt>
+                    <simpleChoice identifier="A">sie bist</simpleChoice>
+                    <simpleChoice identifier="B">sie ist</simpleChoice>
+                    <simpleChoice identifier="C">sie sein</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>hat</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE4">
+                    <prompt>Completați forma corectă a verbului "haben" pentru pronumele "er":</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Wir ist müde. (Noi suntem obosiți.)</simpleChoice>
+                    <simpleChoice identifier="B">Sie sind hier. (Ei sunt aici.)</simpleChoice>
+                    <simpleChoice identifier="C">Das Kind hat einen Ball. (Copilul are o minge.)</simpleChoice>
+                    <simpleChoice identifier="D">Ich hast Zeit. (Eu am timp.)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE6" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "voi aveți" (ihr)?</prompt>
+                    <simpleChoice identifier="A">habt</simpleChoice>
+                    <simpleChoice identifier="B">haben</simpleChoice>
+                    <simpleChoice identifier="C">hat</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>sind</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE7">
+                    <prompt>Completați forma corectă a verbului "sein" pentru pronumele "wir":</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele forme sunt corecte pentru adresarea formală (Sie)?</prompt>
+                    <simpleChoice identifier="A">Sie sind (dumneavoastră sunteți)</simpleChoice>
+                    <simpleChoice identifier="B">Sie ist (dumneavoastră sunteți)</simpleChoice>
+                    <simpleChoice identifier="C">Sie hat (dumneavoastră aveți)</simpleChoice>
+                    <simpleChoice identifier="D">Sie haben (dumneavoastră aveți)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă: "Copilul ___ fericit." ?</prompt>
+                    <simpleChoice identifier="A">haben</simpleChoice>
+                    <simpleChoice identifier="B">bist</simpleChoice>
+                    <simpleChoice identifier="C">ist</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt diferențe între "sein" și verbele regulate?</prompt>
+                    <simpleChoice identifier="A">Formele sunt complet diferite (bin, bist în loc de terminații regulate)</simpleChoice>
+                    <simpleChoice identifier="B">Se conjugă la fel ca verbele regulate</simpleChoice>
+                    <simpleChoice identifier="C">Are forme speciale pentru toate persoanele</simpleChoice>
+                    <simpleChoice identifier="D">Urmează aceleași reguli ca verbele regulate</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

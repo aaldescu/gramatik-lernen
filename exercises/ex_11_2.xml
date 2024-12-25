@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii corecte pentru dorințe în Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">Wenn ich doch reich wäre!</simpleChoice>
+                    <simpleChoice identifier="B">Ich bin reich!</simpleChoice>
+                    <simpleChoice identifier="C">Wenn ich reich bin!</simpleChoice>
+                    <simpleChoice identifier="D">Hätte ich nur mehr Zeit!</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru ipoteza "Dacă aș fi bogat, mi-aș cumpăra o casă"?</prompt>
+                    <simpleChoice identifier="A">Wenn ich reich bin, kaufe ich ein Haus</simpleChoice>
+                    <simpleChoice identifier="B">Wenn ich reich wäre, würde ich ein Haus kaufen</simpleChoice>
+                    <simpleChoice identifier="C">Wenn ich reich war, kaufte ich ein Haus</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>wäre ich mitgekommen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați ipoteza: "Wenn du mich eingeladen hättest, ___ ___ ___." (Dacă m-ai fi invitat, aș fi venit)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele particule se folosesc pentru exprimarea dorințelor?</prompt>
+                    <simpleChoice identifier="A">aber</simpleChoice>
+                    <simpleChoice identifier="B">doch</simpleChoice>
+                    <simpleChoice identifier="C">dann</simpleChoice>
+                    <simpleChoice identifier="D">nur</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru dorința "De-aș fi știut!"?</prompt>
+                    <simpleChoice identifier="A">Hätte ich das nur gewusst!</simpleChoice>
+                    <simpleChoice identifier="B">Wenn ich das weiß!</simpleChoice>
+                    <simpleChoice identifier="C">Habe ich das gewusst!</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>würde ich dir helfen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați ipoteza: "An deiner Stelle ___ ___ ___ ___." (În locul tău te-aș ajuta)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii pentru ipoteze ireale?</prompt>
+                    <simpleChoice identifier="A">Wenn ich könnte, ...</simpleChoice>
+                    <simpleChoice identifier="B">Wenn ich kann, ...</simpleChoice>
+                    <simpleChoice identifier="C">An deiner Stelle würde ich ...</simpleChoice>
+                    <simpleChoice identifier="D">Ich denke, dass ...</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este structura corectă pentru o dorință irealizabilă în trecut?</prompt>
+                    <simpleChoice identifier="A">Wenn + Präsens</simpleChoice>
+                    <simpleChoice identifier="B">Wenn + Plusquamperfekt Konjunktiv</simpleChoice>
+                    <simpleChoice identifier="C">Wenn + Präteritum</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale exprimării dorințelor în Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">Se folosesc doar la prezent</simpleChoice>
+                    <simpleChoice identifier="B">Pot fi introduse cu "wenn doch"</simpleChoice>
+                    <simpleChoice identifier="C">Nu pot exprima regrete</simpleChoice>
+                    <simpleChoice identifier="D">Pot fi exprimate și fără "wenn"</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre ipotezele în Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">Pot exprima situații contrare realității</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar pentru prezent</simpleChoice>
+                    <simpleChoice identifier="C">Pot fi folosite pentru a da sfaturi</simpleChoice>
+                    <simpleChoice identifier="D">Nu pot fi folosite cu "wenn"</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

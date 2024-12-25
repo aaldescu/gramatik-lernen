@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>spielst</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE1">
+                    <prompt>Completați forma corectă a verbului "spielen" (a se juca) pentru pronumele "du":</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele forme ale verbului "lernen" (a învăța) sunt corecte?</prompt>
+                    <simpleChoice identifier="A">ich lerne</simpleChoice>
+                    <simpleChoice identifier="B">du lernst nicht</simpleChoice>
+                    <simpleChoice identifier="C">wir lernen</simpleChoice>
+                    <simpleChoice identifier="D">sie lernt nicht</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE3" shuffle="true" maxChoices="1">
+                    <prompt>Care este terminația corectă pentru persoana a II-a singular (du)?</prompt>
+                    <simpleChoice identifier="A">-e</simpleChoice>
+                    <simpleChoice identifier="B">-st</simpleChoice>
+                    <simpleChoice identifier="C">-t</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>arbeitet</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE4">
+                    <prompt>Completați forma corectă a verbului "arbeiten" (a munci) pentru pronumele "er":</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="2">
+                    <prompt>Care sunt terminațiile corecte pentru verbele regulate la prezent?</prompt>
+                    <simpleChoice identifier="A">-st pentru "wir"</simpleChoice>
+                    <simpleChoice identifier="B">-en pentru "wir"</simpleChoice>
+                    <simpleChoice identifier="C">-e pentru "du"</simpleChoice>
+                    <simpleChoice identifier="D">-t pentru "er/sie/es"</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE6" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă a verbului "machen" (a face) pentru "ihr"?</prompt>
+                    <simpleChoice identifier="A">macht</simpleChoice>
+                    <simpleChoice identifier="B">machen</simpleChoice>
+                    <simpleChoice identifier="C">machst</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>wohnen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE7">
+                    <prompt>Completați forma corectă a verbului "wohnen" (a locui) pentru pronumele "sie" (ei/ele):</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele forme verbale sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Sie arbeiten (dumneavoastră lucrați)</simpleChoice>
+                    <simpleChoice identifier="B">wir arbeitest (noi lucrăm)</simpleChoice>
+                    <simpleChoice identifier="C">ich arbeitet (eu lucrez)</simpleChoice>
+                    <simpleChoice identifier="D">er arbeitet (el lucrează)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="1">
+                    <prompt>Care este regula pentru conjugarea verbelor regulate la persoana I singular (ich)?</prompt>
+                    <simpleChoice identifier="A">Adăugăm -st la rădăcina verbului</simpleChoice>
+                    <simpleChoice identifier="B">Adăugăm -t la rădăcina verbului</simpleChoice>
+                    <simpleChoice identifier="C">Adăugăm -e la rădăcina verbului</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "ei/ele cântă" (singen)?</prompt>
+                    <simpleChoice identifier="A">sie singt</simpleChoice>
+                    <simpleChoice identifier="B">sie singen</simpleChoice>
+                    <simpleChoice identifier="C">sie singst</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

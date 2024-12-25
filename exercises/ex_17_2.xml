@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt transformări corecte în vorbirea indirectă?</prompt>
+                    <simpleChoice identifier="A">"Ich bin krank" → Er sagt, er sei krank</simpleChoice>
+                    <simpleChoice identifier="B">"Ich bin krank" → Er sagt, er ist krank</simpleChoice>
+                    <simpleChoice identifier="C">"Ich komme" → Er sagt, er kommt</simpleChoice>
+                    <simpleChoice identifier="D">"Ich habe Zeit" → Er sagt, er habe Zeit</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Cum se transformă în vorbirea indirectă: "Er sagt: 'Ich arbeite viel.'"?</prompt>
+                    <simpleChoice identifier="A">Er sagt, er arbeitet viel</simpleChoice>
+                    <simpleChoice identifier="B">Er sagt, er arbeite viel</simpleChoice>
+                    <simpleChoice identifier="C">Er sagt, er arbeitete viel</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>sei müde</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Transformați în vorbirea indirectă: "Sie sagt: 'Ich bin müde.'" → Sie sagt, sie ___ ___</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt reguli pentru vorbirea indirectă?</prompt>
+                    <simpleChoice identifier="A">Se păstrează timpul verbului</simpleChoice>
+                    <simpleChoice identifier="B">Se folosește Conjunctiv I</simpleChoice>
+                    <simpleChoice identifier="C">Pronumele rămân neschimbate</simpleChoice>
+                    <simpleChoice identifier="D">Se schimbă perspectiva pronumelor</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru: "Er sagt: 'Ich werde kommen.'"?</prompt>
+                    <simpleChoice identifier="A">Er sagt, er werde kommen</simpleChoice>
+                    <simpleChoice identifier="B">Er sagt, er wird kommen</simpleChoice>
+                    <simpleChoice identifier="C">Er sagt, er käme</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>habe geschlafen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Transformați în vorbirea indirectă: "Er sagt: 'Ich habe geschlafen.'" → Er sagt, er ___ ___</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe introductive sunt folosite în vorbirea indirectă?</prompt>
+                    <simpleChoice identifier="A">sagen (a spune)</simpleChoice>
+                    <simpleChoice identifier="B">machen (a face)</simpleChoice>
+                    <simpleChoice identifier="C">berichten (a raporta)</simpleChoice>
+                    <simpleChoice identifier="D">spielen (a se juca)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Cum se transformă în vorbirea indirectă întrebarea: "Wo wohnst du?"</prompt>
+                    <simpleChoice identifier="A">Er fragt, wo ich wohne</simpleChoice>
+                    <simpleChoice identifier="B">Er fragt, wo sie wohne</simpleChoice>
+                    <simpleChoice identifier="C">Er fragt, wo du wohnst</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt corecte în vorbirea indirectă?</prompt>
+                    <simpleChoice identifier="A">Folosirea timpului prezent</simpleChoice>
+                    <simpleChoice identifier="B">Folosirea conjuncției dass</simpleChoice>
+                    <simpleChoice identifier="C">Păstrarea ghilimelelor</simpleChoice>
+                    <simpleChoice identifier="D">Schimbarea adverbelor de timp</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre vorbirea indirectă?</prompt>
+                    <simpleChoice identifier="A">Se folosește în special în limbajul formal</simpleChoice>
+                    <simpleChoice identifier="B">Nu necesită schimbarea pronumelor</simpleChoice>
+                    <simpleChoice identifier="C">Poate fi introdusă prin diverse verbe declarative</simpleChoice>
+                    <simpleChoice identifier="D">Se folosește doar la prezent</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

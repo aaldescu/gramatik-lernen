@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii specifice limbajului profesional?</prompt>
+                    <simpleChoice identifier="A">hiermit beantrage ich (prin prezenta solicit)</simpleChoice>
+                    <simpleChoice identifier="B">ich will (eu vreau)</simpleChoice>
+                    <simpleChoice identifier="C">kannst du (poți tu)</simpleChoice>
+                    <simpleChoice identifier="D">in Erwägung ziehen (a lua în considerare)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma profesională pentru "Ich möchte Urlaub"?</prompt>
+                    <simpleChoice identifier="A">Ich will Urlaub haben</simpleChoice>
+                    <simpleChoice identifier="B">Hiermit beantrage ich Urlaub</simpleChoice>
+                    <simpleChoice identifier="C">Gib mir Urlaub</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>bezugnehmend auf Ihr Schreiben</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați începutul unei scrisori profesionale: "___ ___ ___ ___" (Referitor la scrisoarea dumneavoastră)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale limbajului profesional?</prompt>
+                    <simpleChoice identifier="A">Folosirea expresiilor familiare</simpleChoice>
+                    <simpleChoice identifier="B">Utilizarea formulelor de politețe</simpleChoice>
+                    <simpleChoice identifier="C">Stil informal</simpleChoice>
+                    <simpleChoice identifier="D">Terminologie specifică domeniului</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este încheierea corectă pentru un e-mail profesional?</prompt>
+                    <simpleChoice identifier="A">Mit freundlichen Grüßen</simpleChoice>
+                    <simpleChoice identifier="B">Tschüss</simpleChoice>
+                    <simpleChoice identifier="C">Bis bald</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>bitte ich Sie um Rückmeldung</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați formula profesională: "Hiermit ___ ___ ___ ___" (Prin prezenta vă rog să-mi răspundeți)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt formule de început pentru e-mailuri profesionale?</prompt>
+                    <simpleChoice identifier="A">Sehr geehrte Frau Dr. Schmidt</simpleChoice>
+                    <simpleChoice identifier="B">Hallo Leute</simpleChoice>
+                    <simpleChoice identifier="C">Sehr geehrte Damen und Herren</simpleChoice>
+                    <simpleChoice identifier="D">Hi zusammen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma profesională pentru a cere informații?</prompt>
+                    <simpleChoice identifier="A">Sag mir schnell</simpleChoice>
+                    <simpleChoice identifier="B">Ich bitte Sie um nähere Informationen</simpleChoice>
+                    <simpleChoice identifier="C">Kannst du mir sagen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt elemente ale unei scrisori profesionale?</prompt>
+                    <simpleChoice identifier="A">Emoticoane</simpleChoice>
+                    <simpleChoice identifier="B">Antet</simpleChoice>
+                    <simpleChoice identifier="C">Abrevieri informale</simpleChoice>
+                    <simpleChoice identifier="D">Referință</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre limbajul profesional german?</prompt>
+                    <simpleChoice identifier="A">Folosește forme de politețe</simpleChoice>
+                    <simpleChoice identifier="B">Este identic cu limbajul colocvial</simpleChoice>
+                    <simpleChoice identifier="C">Respectă ierarhii și poziții profesionale</simpleChoice>
+                    <simpleChoice identifier="D">Evită formele de politețe</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

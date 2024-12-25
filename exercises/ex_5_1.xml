@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma de dativ pentru "der Mann" (bărbatul)?</prompt>
+                    <simpleChoice identifier="A">den Mann</simpleChoice>
+                    <simpleChoice identifier="B">dem Mann</simpleChoice>
+                    <simpleChoice identifier="C">der Mann</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe cer cazul dativ?</prompt>
+                    <simpleChoice identifier="A">helfen (a ajuta)</simpleChoice>
+                    <simpleChoice identifier="B">sehen (a vedea)</simpleChoice>
+                    <simpleChoice identifier="C">finden (a găsi)</simpleChoice>
+                    <simpleChoice identifier="D">danken (a mulțumi)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>der</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Care este articolul hotărât la dativ pentru substantivul feminin "die Frau" (femeia)?</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Eu ajut copilului"?</prompt>
+                    <simpleChoice identifier="A">Ich helfe das Kind</simpleChoice>
+                    <simpleChoice identifier="B">Ich helfe den Kind</simpleChoice>
+                    <simpleChoice identifier="C">Ich helfe dem Kind</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații despre cazul dativ sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Se folosește doar pentru obiecte directe</simpleChoice>
+                    <simpleChoice identifier="B">Este cazul obiectului indirect</simpleChoice>
+                    <simpleChoice identifier="C">Nu modifică niciodată articolele</simpleChoice>
+                    <simpleChoice identifier="D">Toate articolele se schimbă la dativ</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE6" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Eu îi dau cartea profesorului"?</prompt>
+                    <simpleChoice identifier="A">Ich gebe dem Lehrer das Buch</simpleChoice>
+                    <simpleChoice identifier="B">Ich gebe den Lehrer das Buch</simpleChoice>
+                    <simpleChoice identifier="C">Ich gebe der Lehrer das Buch</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>einem</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE7">
+                    <prompt>Completați cu articolul nehotărât corect la dativ: "Er hilft ___ Kind" (El ajută un copil)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect dativul?</prompt>
+                    <simpleChoice identifier="A">Ich danke dem Mann</simpleChoice>
+                    <simpleChoice identifier="B">Sie hilft den Kindern</simpleChoice>
+                    <simpleChoice identifier="C">Er gibt der Frau ein Buch</simpleChoice>
+                    <simpleChoice identifier="D">Wir folgen die Lehrerin</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă la plural pentru dativ: "copiilor"?</prompt>
+                    <simpleChoice identifier="A">die Kindern</simpleChoice>
+                    <simpleChoice identifier="B">den Kindern</simpleChoice>
+                    <simpleChoice identifier="C">dem Kindern</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale cazului dativ?</prompt>
+                    <simpleChoice identifier="A">La plural se adaugă -n substantivelor</simpleChoice>
+                    <simpleChoice identifier="B">Se folosește doar cu verbe</simpleChoice>
+                    <simpleChoice identifier="C">Nu modifică articolele la plural</simpleChoice>
+                    <simpleChoice identifier="D">Poate indica cui i se face o acțiune</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

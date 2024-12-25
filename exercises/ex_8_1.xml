@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect verbul "können"?</prompt>
+                    <simpleChoice identifier="A">Ich kann schwimmen</simpleChoice>
+                    <simpleChoice identifier="B">Er können tanzen</simpleChoice>
+                    <simpleChoice identifier="C">Wir kann singen</simpleChoice>
+                    <simpleChoice identifier="D">Sie können deutsch sprechen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Trebuie să merg la școală"?</prompt>
+                    <simpleChoice identifier="A">Ich müsse in die Schule gehen</simpleChoice>
+                    <simpleChoice identifier="B">Ich muss in die Schule gehen</simpleChoice>
+                    <simpleChoice identifier="C">Ich müssen in die Schule gehen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>dürfen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu verbul modal corect (a avea voie): "Die Kinder ___ hier spielen."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale verbelor modale?</prompt>
+                    <simpleChoice identifier="A">Se conjugă ca verbele regulate</simpleChoice>
+                    <simpleChoice identifier="B">Verbul principal stă la infinitiv la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">Nu pot fi folosite la trecut</simpleChoice>
+                    <simpleChoice identifier="D">Schimbă vocala în rădăcină la singular</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "El poate cânta"?</prompt>
+                    <simpleChoice identifier="A">Er kann singen</simpleChoice>
+                    <simpleChoice identifier="B">Er können singen</simpleChoice>
+                    <simpleChoice identifier="C">Er kannen singen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>müssen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu verbul modal corect (a trebui): "Wir ___ jetzt gehen."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect verbul "dürfen"?</prompt>
+                    <simpleChoice identifier="A">Du darfst hier rauchen</simpleChoice>
+                    <simpleChoice identifier="B">Ich dürfe nicht sprechen</simpleChoice>
+                    <simpleChoice identifier="C">Sie dürfen nach Hause gehen</simpleChoice>
+                    <simpleChoice identifier="D">Er dürft Fußball spielen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Noi trebuie să învățăm"?</prompt>
+                    <simpleChoice identifier="A">Wir müsse lernen</simpleChoice>
+                    <simpleChoice identifier="B">Wir müssen lernen</simpleChoice>
+                    <simpleChoice identifier="C">Wir musst lernen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele exprimă permisiunea în germană?</prompt>
+                    <simpleChoice identifier="A">müssen</simpleChoice>
+                    <simpleChoice identifier="B">dürfen</simpleChoice>
+                    <simpleChoice identifier="C">brauchen</simpleChoice>
+                    <simpleChoice identifier="D">können (în unele contexte)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt adevărate despre verbele modale?</prompt>
+                    <simpleChoice identifier="A">Sunt urmate de infinitiv</simpleChoice>
+                    <simpleChoice identifier="B">Nu pot fi negate</simpleChoice>
+                    <simpleChoice identifier="C">Au conjugare specială la singular</simpleChoice>
+                    <simpleChoice identifier="D">Pot fi folosite doar la prezent</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="1">
+                    <prompt>Care este articolul nehotărât corect pentru substantivul "Buch" (carte)?</prompt>
+                    <simpleChoice identifier="A">ein</simpleChoice>
+                    <simpleChoice identifier="B">eine</simpleChoice>
+                    <simpleChoice identifier="C">einen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>keine</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE2">
+                    <prompt>Transformă propoziția la forma negativă: "Ich habe eine Zeit." → "Ich habe _____ Zeit."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE3" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "o femeie" în germană?</prompt>
+                    <simpleChoice identifier="A">ein Frau</simpleChoice>
+                    <simpleChoice identifier="B">einen Frau</simpleChoice>
+                    <simpleChoice identifier="C">eine Frau</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>ein</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE4">
+                    <prompt>Completează cu articolul nehotărât corect: "Er ist _____ Lehrer." (El este profesor.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă la plural pentru "eine Katze"?</prompt>
+                    <simpleChoice identifier="A">eine Katzen</simpleChoice>
+                    <simpleChoice identifier="B">Katzen</simpleChoice>
+                    <simpleChoice identifier="C">einen Katzen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>kein</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Transformă la negativ: "Das ist ein Buch." → "Das ist _____ Buch."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>În care situații se folosesc articolele nehotărâte?</prompt>
+                    <simpleChoice identifier="A">Pentru a introduce ceva nou în conversație</simpleChoice>
+                    <simpleChoice identifier="B">Pentru a indica ceva specific și cunoscut</simpleChoice>
+                    <simpleChoice identifier="C">Pentru a descrie profesia cuiva</simpleChoice>
+                    <simpleChoice identifier="D">Pentru a vorbi despre ceva la plural</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>eine</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE8">
+                    <prompt>Completează cu articolul nehotărât corect: "Ich möchte _____ Tasse Kaffee." (Aș dori o ceașcă de cafea.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="1">
+                    <prompt>Care este regula corectă pentru articolele nehotărâte la plural?</prompt>
+                    <simpleChoice identifier="A">Se folosește eine pentru toate substantivele</simpleChoice>
+                    <simpleChoice identifier="B">Nu există articol nehotărât la plural</simpleChoice>
+                    <simpleChoice identifier="C">Se folosește ein pentru toate substantivele</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>eine</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE10">
+                    <prompt>Completează cu articolul nehotărât corect: "_____ Blume ist schön." (O floare este frumoasă.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

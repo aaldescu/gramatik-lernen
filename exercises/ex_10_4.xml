@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>În care contexte se folosește frecvent diateza pasivă în germană?</prompt>
+                    <simpleChoice identifier="A">În instrucțiuni tehnice</simpleChoice>
+                    <simpleChoice identifier="B">În povești pentru copii</simpleChoice>
+                    <simpleChoice identifier="C">În conversații informale</simpleChoice>
+                    <simpleChoice identifier="D">În texte științifice</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru o instrucțiune de utilizare: "Butonul trebuie apăsat de două ori"?</prompt>
+                    <simpleChoice identifier="A">Man drückt den Knopf zweimal</simpleChoice>
+                    <simpleChoice identifier="B">Der Knopf muss zweimal gedrückt werden</simpleChoice>
+                    <simpleChoice identifier="C">Den Knopf wird zweimal gedrückt</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>wird täglich gereinigt</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați anunțul: "Das Geschäft ___ ___ ___." (Magazinul este curățat zilnic)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale pasivului în texte academice?</prompt>
+                    <simpleChoice identifier="A">Folosirea frecventă a pronumelui "ich"</simpleChoice>
+                    <simpleChoice identifier="B">Focalizarea pe proces, nu pe agent</simpleChoice>
+                    <simpleChoice identifier="C">Stil informal</simpleChoice>
+                    <simpleChoice identifier="D">Obiectivitate în prezentare</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma potrivită pentru un avertisment: "Este interzis fumatul"?</prompt>
+                    <simpleChoice identifier="A">Rauchen ist verboten</simpleChoice>
+                    <simpleChoice identifier="B">Man darf nicht rauchen werden</simpleChoice>
+                    <simpleChoice identifier="C">Das Rauchen wird verboten</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>wurde festgestellt</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați fraza din raportul științific: "In der Studie ___ ___, dass..." (În studiu s-a constatat că...)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt exemple de utilizare corectă a pasivului în instrucțiuni?</prompt>
+                    <simpleChoice identifier="A">Die Datei muss gespeichert werden</simpleChoice>
+                    <simpleChoice identifier="B">Man speichert die Datei</simpleChoice>
+                    <simpleChoice identifier="C">Der Computer wird ausgeschaltet</simpleChoice>
+                    <simpleChoice identifier="D">Ich schalte den Computer aus</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care formă este mai potrivită pentru un anunț public?</prompt>
+                    <simpleChoice identifier="A">Wir renovieren das Gebäude</simpleChoice>
+                    <simpleChoice identifier="B">Das Gebäude wird renoviert</simpleChoice>
+                    <simpleChoice identifier="C">Man renoviert das Gebäude</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>În ce situații este preferată diateza pasivă în germană?</prompt>
+                    <simpleChoice identifier="A">În conversații personale</simpleChoice>
+                    <simpleChoice identifier="B">În regulamente</simpleChoice>
+                    <simpleChoice identifier="C">În narațiuni</simpleChoice>
+                    <simpleChoice identifier="D">În descrieri de procese</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre utilizarea pasivului în germană?</prompt>
+                    <simpleChoice identifier="A">Este frecvent în limbajul formal</simpleChoice>
+                    <simpleChoice identifier="B">Se evită în documentația tehnică</simpleChoice>
+                    <simpleChoice identifier="C">Conferă un ton oficial textului</simpleChoice>
+                    <simpleChoice identifier="D">Este preferat în comunicarea informală</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

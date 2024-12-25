@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Când este preferată construcția cu würde + Infinitiv?</prompt>
+                    <simpleChoice identifier="A">Cu verbe regulate</simpleChoice>
+                    <simpleChoice identifier="B">Cu verbele sein și haben</simpleChoice>
+                    <simpleChoice identifier="C">Cu verbe modale</simpleChoice>
+                    <simpleChoice identifier="D">În vorbirea curentă</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Aș cumpăra" folosind würde?</prompt>
+                    <simpleChoice identifier="A">Ich kaufe</simpleChoice>
+                    <simpleChoice identifier="B">Ich würde kaufen</simpleChoice>
+                    <simpleChoice identifier="C">Ich wurde kaufen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>würde gern kommen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați: "Ich ___ ___ ___." (Mi-ar plăcea să vin)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale construcției würde + Infinitiv?</prompt>
+                    <simpleChoice identifier="A">Se folosește doar la trecut</simpleChoice>
+                    <simpleChoice identifier="B">Este o alternativă la Konjunktiv II</simpleChoice>
+                    <simpleChoice identifier="C">Nu poate exprima politețe</simpleChoice>
+                    <simpleChoice identifier="D">Este frecventă în limba vorbită</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este varianta corectă pentru "Mi-ar plăcea să știu"?</prompt>
+                    <simpleChoice identifier="A">Ich würde gern wissen</simpleChoice>
+                    <simpleChoice identifier="B">Ich wurde wissen</simpleChoice>
+                    <simpleChoice identifier="C">Ich würde gewusst</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>würde dir helfen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați: "An deiner Stelle ___ ich ___ ___." (În locul tău te-aș ajuta)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Când NU se recomandă folosirea construcției würde + Infinitiv?</prompt>
+                    <simpleChoice identifier="A">Cu verbul sein</simpleChoice>
+                    <simpleChoice identifier="B">Cu verbe regulate</simpleChoice>
+                    <simpleChoice identifier="C">Cu verbul haben</simpleChoice>
+                    <simpleChoice identifier="D">În propozițiile condiționale</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este poziția corectă a infinitivului în construcția cu würde?</prompt>
+                    <simpleChoice identifier="A">Imediat după würde</simpleChoice>
+                    <simpleChoice identifier="B">La sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">Înaintea lui würde</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>În ce situații este potrivită construcția würde + Infinitiv?</prompt>
+                    <simpleChoice identifier="A">Doar în scris</simpleChoice>
+                    <simpleChoice identifier="B">Pentru exprimarea politicoasă</simpleChoice>
+                    <simpleChoice identifier="C">Doar cu verbe neregulate</simpleChoice>
+                    <simpleChoice identifier="D">În situații informale</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre würde + Infinitiv?</prompt>
+                    <simpleChoice identifier="A">Este o alternativă mai simplă la Konjunktiv II</simpleChoice>
+                    <simpleChoice identifier="B">Nu poate exprima ipoteze</simpleChoice>
+                    <simpleChoice identifier="C">Se folosește frecvent în limba vorbită</simpleChoice>
+                    <simpleChoice identifier="D">Este obligatorie cu toate verbele</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

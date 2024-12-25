@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt forme corecte de Perfect pentru verbe modale?</prompt>
+                    <simpleChoice identifier="A">Ich habe schwimmen müssen</simpleChoice>
+                    <simpleChoice identifier="B">Ich habe gemusst schwimmen</simpleChoice>
+                    <simpleChoice identifier="C">Ich bin müssen schwimmen</simpleChoice>
+                    <simpleChoice identifier="D">Er hat arbeiten wollen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă de Imperfect pentru "Ich kann" (Eu pot)?</prompt>
+                    <simpleChoice identifier="A">Ich konnte</simpleChoice>
+                    <simpleChoice identifier="B">Ich könnte</simpleChoice>
+                    <simpleChoice identifier="C">Ich kannte</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>musste</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu forma de Imperfect a verbului "müssen": "Er ___ viel arbeiten."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale verbelor modale la Perfect?</prompt>
+                    <simpleChoice identifier="A">Folosesc întotdeauna sein ca auxiliar</simpleChoice>
+                    <simpleChoice identifier="B">Infinitivul rămâne la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">Primesc prefix ge- la participiu</simpleChoice>
+                    <simpleChoice identifier="D">Folosesc forma de infinitiv în loc de participiu</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "El a vrut să doarmă"?</prompt>
+                    <simpleChoice identifier="A">Er hat schlafen wollen</simpleChoice>
+                    <simpleChoice identifier="B">Er hat gewollt schlafen</simpleChoice>
+                    <simpleChoice identifier="C">Er ist wollen schlafen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>durfte</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu forma de Imperfect a verbului "dürfen": "Ich ___ nicht ausgehen."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții sunt corecte la Imperfect?</prompt>
+                    <simpleChoice identifier="A">Wir sollten nach Hause gehen</simpleChoice>
+                    <simpleChoice identifier="B">Du musstest gegangen</simpleChoice>
+                    <simpleChoice identifier="C">Sie wollten Deutsch lernen</simpleChoice>
+                    <simpleChoice identifier="D">Ich könnten spielen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Noi am putut merge"?</prompt>
+                    <simpleChoice identifier="A">Wir haben gekonnt gehen</simpleChoice>
+                    <simpleChoice identifier="B">Wir haben gehen können</simpleChoice>
+                    <simpleChoice identifier="C">Wir sind können gehen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt forme corecte de Imperfect pentru verbe modale?</prompt>
+                    <simpleChoice identifier="A">gewollt</simpleChoice>
+                    <simpleChoice identifier="B">konnte</simpleChoice>
+                    <simpleChoice identifier="C">gemüsst</simpleChoice>
+                    <simpleChoice identifier="D">durfte</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre verbele modale la trecut?</prompt>
+                    <simpleChoice identifier="A">La Perfect, verbul modal este la infinitiv</simpleChoice>
+                    <simpleChoice identifier="B">La Imperfect primesc întotdeauna prefix ge-</simpleChoice>
+                    <simpleChoice identifier="C">Imperfectul este mai folosit decât Perfectul în vorbirea curentă</simpleChoice>
+                    <simpleChoice identifier="D">Nu pot fi folosite cu alte verbe</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

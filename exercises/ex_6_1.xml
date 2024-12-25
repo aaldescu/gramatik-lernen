@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt prepoziții temporale?</prompt>
+                    <simpleChoice identifier="A">vor (înainte de)</simpleChoice>
+                    <simpleChoice identifier="B">mit (cu)</simpleChoice>
+                    <simpleChoice identifier="C">auf (pe)</simpleChoice>
+                    <simpleChoice identifier="D">nach (după)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "după masă"?</prompt>
+                    <simpleChoice identifier="A">nach die Mahlzeit</simpleChoice>
+                    <simpleChoice identifier="B">nach der Mahlzeit</simpleChoice>
+                    <simpleChoice identifier="C">nach den Mahlzeit</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>seit einem</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu prepoziția "seit" (de) și articolul corect: "Er lernt Deutsch ___ Jahr" (El învață germană de un an)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele expresii temporale sunt corecte?</prompt>
+                    <simpleChoice identifier="A">in der Nacht (în noapte)</simpleChoice>
+                    <simpleChoice identifier="B">am Morgen (dimineața)</simpleChoice>
+                    <simpleChoice identifier="C">bei dem Tag (în timpul zilei)</simpleChoice>
+                    <simpleChoice identifier="D">um 8 Uhr (la ora 8)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "înainte de școală"?</prompt>
+                    <simpleChoice identifier="A">vor der Schule</simpleChoice>
+                    <simpleChoice identifier="B">vor die Schule</simpleChoice>
+                    <simpleChoice identifier="C">vor dem Schule</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>während des</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu prepoziția "während" (în timpul) și articolul corect: "___ Unterrichts" (în timpul cursului)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt utilizări corecte ale prepoziției "bis"?</prompt>
+                    <simpleChoice identifier="A">bis zum Abend (până seara)</simpleChoice>
+                    <simpleChoice identifier="B">bis der Morgen (până dimineața)</simpleChoice>
+                    <simpleChoice identifier="C">bis 20 Uhr (până la ora 20)</simpleChoice>
+                    <simpleChoice identifier="D">bis dem Ende (până la sfârșit)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "în timpul nopții"?</prompt>
+                    <simpleChoice identifier="A">in der Nacht</simpleChoice>
+                    <simpleChoice identifier="B">während der Nacht</simpleChoice>
+                    <simpleChoice identifier="C">bei der Nacht</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect prepozițiile temporale?</prompt>
+                    <simpleChoice identifier="A">Ich komme in Montag</simpleChoice>
+                    <simpleChoice identifier="B">Wir treffen uns am Samstag</simpleChoice>
+                    <simpleChoice identifier="C">Er arbeitet bei Nacht</simpleChoice>
+                    <simpleChoice identifier="D">Sie lernt seit drei Jahren</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale prepozițiilor temporale?</prompt>
+                    <simpleChoice identifier="A">Pot indica durata unei acțiuni</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar cu ore exacte</simpleChoice>
+                    <simpleChoice identifier="C">Unele cer cazul dativ</simpleChoice>
+                    <simpleChoice identifier="D">Nu se pot folosi cu date calendaristice</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

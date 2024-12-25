@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Der Student lernt Deutsch</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE1">
+                    <prompt>Construiți o propoziție afirmativă folosind: "der Student, lernt, Deutsch"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții afirmative sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Die Kinder spielen im Garten</simpleChoice>
+                    <simpleChoice identifier="B">Die Lehrerin gut ist</simpleChoice>
+                    <simpleChoice identifier="C">Meine Mutter kocht heute Abend</simpleChoice>
+                    <simpleChoice identifier="D">Der Hund bellt laut in</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE3" shuffle="true" maxChoices="1">
+                    <prompt>Care este propoziția afirmativă corectă pentru "Pisica doarme pe canapea"?</prompt>
+                    <simpleChoice identifier="A">Die Katze auf dem Sofa schläft</simpleChoice>
+                    <simpleChoice identifier="B">Die Katze schläft auf dem Sofa</simpleChoice>
+                    <simpleChoice identifier="C">Schläft die Katze auf dem Sofa</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Das Wetter ist heute schön</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE4">
+                    <prompt>Construiți o propoziție afirmativă folosind: "das Wetter, ist, heute, schön"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele reguli pentru propozițiile afirmative sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Verbul conjugat este întotdeauna pe poziția a doua</simpleChoice>
+                    <simpleChoice identifier="B">Subiectul vine întotdeauna după verb</simpleChoice>
+                    <simpleChoice identifier="C">Adverbele vin întotdeauna la sfârșit</simpleChoice>
+                    <simpleChoice identifier="D">Complementul direct vine după verb</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE6" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă pentru "Peter citește o carte în bibliotecă"?</prompt>
+                    <simpleChoice identifier="A">Peter liest ein Buch in der Bibliothek</simpleChoice>
+                    <simpleChoice identifier="B">Peter ein Buch in der Bibliothek liest</simpleChoice>
+                    <simpleChoice identifier="C">Peter in der Bibliothek liest ein Buch</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Meine Schwester arbeitet in Berlin</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE7">
+                    <prompt>Construiți o propoziție afirmativă folosind: "meine Schwester, arbeitet, in Berlin"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect adverbele de timp și loc?</prompt>
+                    <simpleChoice identifier="A">Er heute geht ins Kino</simpleChoice>
+                    <simpleChoice identifier="B">Er geht heute ins Kino</simpleChoice>
+                    <simpleChoice identifier="C">Sie dort morgen arbeitet</simpleChoice>
+                    <simpleChoice identifier="D">Sie arbeitet morgen dort</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="1">
+                    <prompt>Care este propoziția afirmativă corectă?</prompt>
+                    <simpleChoice identifier="A">Schnell der Zug fährt</simpleChoice>
+                    <simpleChoice identifier="B">Der Zug schnell fährt</simpleChoice>
+                    <simpleChoice identifier="C">Der Zug fährt schnell</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții afirmative sunt corecte și complete?</prompt>
+                    <simpleChoice identifier="A">Die Studenten lernen fleißig für die Prüfung</simpleChoice>
+                    <simpleChoice identifier="B">Die Kinder spielen im</simpleChoice>
+                    <simpleChoice identifier="C">Wir essen jeden Tag Obst und Gemüse</simpleChoice>
+                    <simpleChoice identifier="D">Der Mann trinkt schnell der</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

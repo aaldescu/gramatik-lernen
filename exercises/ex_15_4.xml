@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii folosite în context profesional?</prompt>
+                    <simpleChoice identifier="A">unter Dach und Fach bringen (a duce la bun sfârșit)</simpleChoice>
+                    <simpleChoice identifier="B">ins Bett gehen (a merge la culcare)</simpleChoice>
+                    <simpleChoice identifier="C">Kaffee trinken (a bea cafea)</simpleChoice>
+                    <simpleChoice identifier="D">auf dem laufenden Band sein (a fi la curent)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă expresia "das Eis brechen" în context social?</prompt>
+                    <simpleChoice identifier="A">a sparge gheața (literal)</simpleChoice>
+                    <simpleChoice identifier="B">a depăși stângăcia inițială într-o conversație</simpleChoice>
+                    <simpleChoice identifier="C">a răci atmosfera</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>den Stier bei den Hörnern</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați expresia folosită în afaceri care înseamnă "a lua taurul de coarne": "___ ___ ___ ___ ___" packen</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii folosite în context academic?</prompt>
+                    <simpleChoice identifier="A">Brot kaufen (a cumpăra pâine)</simpleChoice>
+                    <simpleChoice identifier="B">den Faden verlieren (a pierde firul)</simpleChoice>
+                    <simpleChoice identifier="C">nach Hause gehen (a merge acasă)</simpleChoice>
+                    <simpleChoice identifier="D">in die Tiefe gehen (a aprofunda)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă "mit jemandem auf Kriegsfuß stehen" în context social?</prompt>
+                    <simpleChoice identifier="A">a fi în relații proaste cu cineva</simpleChoice>
+                    <simpleChoice identifier="B">a merge la război cu cineva</simpleChoice>
+                    <simpleChoice identifier="C">a sta în picioare cu cineva</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>aus allen Wolken fallen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați expresia care înseamnă "a cădea din toate norurile" (a fi foarte surprins): "___ ___ ___ ___"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii folosite în context de afaceri?</prompt>
+                    <simpleChoice identifier="A">ins Geschäft kommen (a face afaceri)</simpleChoice>
+                    <simpleChoice identifier="B">im Garten arbeiten (a lucra în grădină)</simpleChoice>
+                    <simpleChoice identifier="C">auf Nummer sicher gehen (a merge la sigur)</simpleChoice>
+                    <simpleChoice identifier="D">im Bett liegen (a sta în pat)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă "jemanden auf die Palme bringen" în context emoțional?</prompt>
+                    <simpleChoice identifier="A">a duce pe cineva la palmier</simpleChoice>
+                    <simpleChoice identifier="B">a scoate pe cineva din sărite</simpleChoice>
+                    <simpleChoice identifier="C">a merge la plajă cu cineva</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii folosite în context formal?</prompt>
+                    <simpleChoice identifier="A">Musik hören (a asculta muzică)</simpleChoice>
+                    <simpleChoice identifier="B">zu Protokoll geben (a da o declarație)</simpleChoice>
+                    <simpleChoice identifier="C">Fußball spielen (a juca fotbal)</simpleChoice>
+                    <simpleChoice identifier="D">in Betracht ziehen (a lua în considerare)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre expresiile idiomatice în contexte specifice?</prompt>
+                    <simpleChoice identifier="A">Au nivele diferite de formalitate</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar în scris</simpleChoice>
+                    <simpleChoice identifier="C">Sunt specifice anumitor domenii</simpleChoice>
+                    <simpleChoice identifier="D">Au același sens în orice context</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

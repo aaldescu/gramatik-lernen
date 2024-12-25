@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii formale?</prompt>
+                    <simpleChoice identifier="A">Sehr geehrte Damen und Herren</simpleChoice>
+                    <simpleChoice identifier="B">Hi Leute!</simpleChoice>
+                    <simpleChoice identifier="C">Was geht?</simpleChoice>
+                    <simpleChoice identifier="D">Mit freundlichen Grüßen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este varianta formală pentru "Tschüss"?</prompt>
+                    <simpleChoice identifier="A">Ciao</simpleChoice>
+                    <simpleChoice identifier="B">Auf Wiedersehen</simpleChoice>
+                    <simpleChoice identifier="C">Tschau</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>würden Sie mir bitte sagen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Transformați în limbaj formal: "Sag mir" → "___ ___ ___ ___ ___"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale limbajului formal?</prompt>
+                    <simpleChoice identifier="A">Folosirea diminutivelor</simpleChoice>
+                    <simpleChoice identifier="B">Utilizarea formei de politețe Sie</simpleChoice>
+                    <simpleChoice identifier="C">Folosirea prescurtărilor</simpleChoice>
+                    <simpleChoice identifier="D">Utilizarea conjunctivului</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este varianta formală pentru "Wie geht's?"?</prompt>
+                    <simpleChoice identifier="A">Wie geht es Ihnen?</simpleChoice>
+                    <simpleChoice identifier="B">Was ist los?</simpleChoice>
+                    <simpleChoice identifier="C">Alles klar?</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>könnten Sie mir helfen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Transformați în limbaj formal: "Hilf mir" → "___ ___ ___ ___"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt contexte pentru limbaj formal?</prompt>
+                    <simpleChoice identifier="A">Scrisori oficiale</simpleChoice>
+                    <simpleChoice identifier="B">Chat cu prietenii</simpleChoice>
+                    <simpleChoice identifier="C">Interviuri de angajare</simpleChoice>
+                    <simpleChoice identifier="D">Conversații de familie</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru o cerere formală?</prompt>
+                    <simpleChoice identifier="A">Ich will das haben</simpleChoice>
+                    <simpleChoice identifier="B">Ich möchte Sie darum bitten</simpleChoice>
+                    <simpleChoice identifier="C">Gib mir das</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale limbajului informal?</prompt>
+                    <simpleChoice identifier="A">Folosirea pasivului</simpleChoice>
+                    <simpleChoice identifier="B">Utilizarea contracțiilor</simpleChoice>
+                    <simpleChoice identifier="C">Fraze complexe</simpleChoice>
+                    <simpleChoice identifier="D">Folosirea lui "du"</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre diferențele între registrele lingvistice?</prompt>
+                    <simpleChoice identifier="A">Limbajul formal folosește mai multe structuri complexe</simpleChoice>
+                    <simpleChoice identifier="B">Limbajul informal nu poate fi folosit în scris</simpleChoice>
+                    <simpleChoice identifier="C">Alegerea registrului depinde de context și relația cu interlocutorul</simpleChoice>
+                    <simpleChoice identifier="D">Registrul formal este întotdeauna mai corect</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

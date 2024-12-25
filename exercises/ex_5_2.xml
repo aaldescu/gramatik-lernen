@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt prepoziții care cer cazul dativ?</prompt>
+                    <simpleChoice identifier="A">mit (cu)</simpleChoice>
+                    <simpleChoice identifier="B">durch (prin)</simpleChoice>
+                    <simpleChoice identifier="C">für (pentru)</simpleChoice>
+                    <simpleChoice identifier="D">aus (din)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "cu bărbatul"?</prompt>
+                    <simpleChoice identifier="A">mit den Mann</simpleChoice>
+                    <simpleChoice identifier="B">mit dem Mann</simpleChoice>
+                    <simpleChoice identifier="C">mit der Mann</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>bei der</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu prepoziția "bei" (la) și articolul corect: "Ich bin ___ Mutter" (Sunt la mama)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect prepozițiile cu dativ?</prompt>
+                    <simpleChoice identifier="A">Sie kommt zu der Schule</simpleChoice>
+                    <simpleChoice identifier="B">Er wohnt bei dem Bahnhof</simpleChoice>
+                    <simpleChoice identifier="C">Ich gehe mit die Freunde</simpleChoice>
+                    <simpleChoice identifier="D">Das Buch ist von der Lehrerin</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este traducerea corectă pentru "după masă"?</prompt>
+                    <simpleChoice identifier="A">nach dem Essen</simpleChoice>
+                    <simpleChoice identifier="B">nach das Essen</simpleChoice>
+                    <simpleChoice identifier="C">nach den Essen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>aus dem</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu prepoziția "aus" (din) și articolul corect: "Er kommt ___ Haus" (El vine din casă)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt utilizări corecte ale prepoziției "von"?</prompt>
+                    <simpleChoice identifier="A">von dem Arzt (de la doctor)</simpleChoice>
+                    <simpleChoice identifier="B">von den Haus (de la casă)</simpleChoice>
+                    <simpleChoice identifier="C">von der Schule (de la școală)</simpleChoice>
+                    <simpleChoice identifier="D">von das Kind (de la copil)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "cu copiii"?</prompt>
+                    <simpleChoice identifier="A">mit die Kindern</simpleChoice>
+                    <simpleChoice identifier="B">mit den Kindern</simpleChoice>
+                    <simpleChoice identifier="C">mit dem Kindern</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect prepoziția "zu"?</prompt>
+                    <simpleChoice identifier="A">Ich gehe zu der Park</simpleChoice>
+                    <simpleChoice identifier="B">Ich gehe zum Arzt</simpleChoice>
+                    <simpleChoice identifier="C">Sie fährt zu dem Schule</simpleChoice>
+                    <simpleChoice identifier="D">Er geht zur Bank</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale prepozițiilor cu dativ?</prompt>
+                    <simpleChoice identifier="A">Indică locul static (unde?)</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar la singular</simpleChoice>
+                    <simpleChoice identifier="C">Pot forma contracții (zum, zur)</simpleChoice>
+                    <simpleChoice identifier="D">Nu modifică niciodată articolele</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

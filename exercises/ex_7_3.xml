@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt verbe regulate?</prompt>
+                    <simpleChoice identifier="A">arbeiten (a lucra)</simpleChoice>
+                    <simpleChoice identifier="B">sprechen (a vorbi)</simpleChoice>
+                    <simpleChoice identifier="C">fahren (a merge cu vehiculul)</simpleChoice>
+                    <simpleChoice identifier="D">kaufen (a cumpăra)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este participiul trecut corect pentru verbul regulat "lernen" (a învăța)?</prompt>
+                    <simpleChoice identifier="A">lernt</simpleChoice>
+                    <simpleChoice identifier="B">gelernt</simpleChoice>
+                    <simpleChoice identifier="C">gelernen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>gesprochen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Care este participiul trecut pentru verbul neregulat "sprechen" (a vorbi)?</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt verbe neregulate?</prompt>
+                    <simpleChoice identifier="A">wohnen (a locui)</simpleChoice>
+                    <simpleChoice identifier="B">geben (a da)</simpleChoice>
+                    <simpleChoice identifier="C">machen (a face)</simpleChoice>
+                    <simpleChoice identifier="D">nehmen (a lua)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma de imperfect pentru verbul regulat "spielen" (a juca)?</prompt>
+                    <simpleChoice identifier="A">spielte</simpleChoice>
+                    <simpleChoice identifier="B">spielt</simpleChoice>
+                    <simpleChoice identifier="C">spiel</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>schrieb</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Care este forma de imperfect pentru verbul neregulat "schreiben" (a scrie) la persoana a III-a singular?</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele caracteristici se aplică verbelor regulate?</prompt>
+                    <simpleChoice identifier="A">Păstrează aceeași rădăcină</simpleChoice>
+                    <simpleChoice identifier="B">Schimbă vocala din rădăcină</simpleChoice>
+                    <simpleChoice identifier="C">Au terminația -te la imperfect</simpleChoice>
+                    <simpleChoice identifier="D">Au participiu trecut neregulat</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este participiul trecut corect pentru verbul neregulat "trinken" (a bea)?</prompt>
+                    <simpleChoice identifier="A">trinkt</simpleChoice>
+                    <simpleChoice identifier="B">getrunken</simpleChoice>
+                    <simpleChoice identifier="C">getrinkt</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele caracteristici se aplică verbelor neregulate?</prompt>
+                    <simpleChoice identifier="A">Au întotdeauna prefix ge- la participiu</simpleChoice>
+                    <simpleChoice identifier="B">Pot schimba vocala din rădăcină</simpleChoice>
+                    <simpleChoice identifier="C">Au întotdeauna aceeași formă</simpleChoice>
+                    <simpleChoice identifier="D">Au forme speciale la imperfect</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate?</prompt>
+                    <simpleChoice identifier="A">Verbele regulate urmează un model fix de conjugare</simpleChoice>
+                    <simpleChoice identifier="B">Toate verbele neregulate se conjugă la fel</simpleChoice>
+                    <simpleChoice identifier="C">Verbele neregulate trebuie învățate pe de rost</simpleChoice>
+                    <simpleChoice identifier="D">Nu există reguli pentru verbele neregulate</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

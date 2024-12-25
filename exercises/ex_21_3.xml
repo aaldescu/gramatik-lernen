@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt termeni din limbajul juridic german?</prompt>
+                    <simpleChoice identifier="A">Rechtskraft (putere juridică)</simpleChoice>
+                    <simpleChoice identifier="B">Tisch (masă)</simpleChoice>
+                    <simpleChoice identifier="C">Haus (casă)</simpleChoice>
+                    <simpleChoice identifier="D">Berufung einlegen (a face apel)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este termenul medical corect pentru "a examina"?</prompt>
+                    <simpleChoice identifier="A">sehen</simpleChoice>
+                    <simpleChoice identifier="B">untersuchen</simpleChoice>
+                    <simpleChoice identifier="C">schauen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Gewinn und Verlustrechnung</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați termenul economic: "___ ___ ___ ___" (contul de profit și pierdere)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale limbajului specializat?</prompt>
+                    <simpleChoice identifier="A">Folosește expresii informale</simpleChoice>
+                    <simpleChoice identifier="B">Are terminologie specifică</simpleChoice>
+                    <simpleChoice identifier="C">Evită substantivele</simpleChoice>
+                    <simpleChoice identifier="D">Este precis și exact</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este termenul tehnic pentru "a instala (software)"?</prompt>
+                    <simpleChoice identifier="A">installieren</simpleChoice>
+                    <simpleChoice identifier="B">machen</simpleChoice>
+                    <simpleChoice identifier="C">stellen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Antrag auf Baugenehmigung</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați termenul administrativ: "___ ___ ___" (cerere de autorizație de construcție)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt termeni din IT?</prompt>
+                    <simpleChoice identifier="A">Datenbank (bază de date)</simpleChoice>
+                    <simpleChoice identifier="B">Fenster (fereastră)</simpleChoice>
+                    <simpleChoice identifier="C">Netzwerk (rețea)</simpleChoice>
+                    <simpleChoice identifier="D">Tür (ușă)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este termenul medical pentru "a prescrie medicamente"?</prompt>
+                    <simpleChoice identifier="A">geben</simpleChoice>
+                    <simpleChoice identifier="B">verschreiben</simpleChoice>
+                    <simpleChoice identifier="C">schreiben</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt termeni din domeniul financiar?</prompt>
+                    <simpleChoice identifier="A">Tasse (ceașcă)</simpleChoice>
+                    <simpleChoice identifier="B">Bilanz (bilanț)</simpleChoice>
+                    <simpleChoice identifier="C">Stuhl (scaun)</simpleChoice>
+                    <simpleChoice identifier="D">Umsatz (cifră de afaceri)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre limbajul specializat în germană?</prompt>
+                    <simpleChoice identifier="A">Folosește multe substantive compuse</simpleChoice>
+                    <simpleChoice identifier="B">Este identic cu limbajul colocvial</simpleChoice>
+                    <simpleChoice identifier="C">Are structuri gramaticale specifice</simpleChoice>
+                    <simpleChoice identifier="D">Evită termenii tehnici</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

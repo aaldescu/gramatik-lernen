@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următorii sunt conectori subordonatori în germană?</prompt>
+                    <simpleChoice identifier="A">weil (pentru că)</simpleChoice>
+                    <simpleChoice identifier="B">und (și)</simpleChoice>
+                    <simpleChoice identifier="C">oder (sau)</simpleChoice>
+                    <simpleChoice identifier="D">dass (că)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă în propoziția: "Ich weiß, ___ er morgen kommt."?</prompt>
+                    <simpleChoice identifier="A">dass er kommt morgen</simpleChoice>
+                    <simpleChoice identifier="B">dass er morgen kommt</simpleChoice>
+                    <simpleChoice identifier="C">dass kommt er morgen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>wenn</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu conectorul potrivit (când): "___ ich Zeit habe, lerne ich Deutsch."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale conectorilor subordonatori?</prompt>
+                    <simpleChoice identifier="A">Nu schimbă ordinea cuvintelor</simpleChoice>
+                    <simpleChoice identifier="B">Verbul merge la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">Pot fi folosiți fără virgulă</simpleChoice>
+                    <simpleChoice identifier="D">Introduc propoziții subordonate</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este conectorul corect în: "Ich rufe dich an, ___ ich zu Hause bin."?</prompt>
+                    <simpleChoice identifier="A">wenn</simpleChoice>
+                    <simpleChoice identifier="B">weil</simpleChoice>
+                    <simpleChoice identifier="C">und</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>obwohl</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu conectorul potrivit (deși): "___ es regnet, gehe ich spazieren."</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Ich weiß, dass er krank ist</simpleChoice>
+                    <simpleChoice identifier="B">Ich weiß, dass ist er krank</simpleChoice>
+                    <simpleChoice identifier="C">Wenn es regnet, bleibe ich zu Hause</simpleChoice>
+                    <simpleChoice identifier="D">Obwohl ist es spät, ich arbeite</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este regula principală pentru propozițiile subordonate?</prompt>
+                    <simpleChoice identifier="A">Verbul vine pe poziția a doua</simpleChoice>
+                    <simpleChoice identifier="B">Verbul merge la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">Verbul vine imediat după subiect</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următorii conectori introduc propoziții temporale?</prompt>
+                    <simpleChoice identifier="A">weil</simpleChoice>
+                    <simpleChoice identifier="B">wenn</simpleChoice>
+                    <simpleChoice identifier="C">dass</simpleChoice>
+                    <simpleChoice identifier="D">bevor</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt adevărate despre propoziții subordonate?</prompt>
+                    <simpleChoice identifier="A">Sunt separate prin virgulă de propoziția principală</simpleChoice>
+                    <simpleChoice identifier="B">Nu pot sta la începutul frazei</simpleChoice>
+                    <simpleChoice identifier="C">Verbul conjugat este mereu la final</simpleChoice>
+                    <simpleChoice identifier="D">Nu pot conține verbe modale</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

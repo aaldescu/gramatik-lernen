@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii idiomatice cu adjective de culori?</prompt>
+                    <simpleChoice identifier="A">blau machen (a chiuli)</simpleChoice>
+                    <simpleChoice identifier="B">hell denken (a gândi luminos)</simpleChoice>
+                    <simpleChoice identifier="C">braun essen (a mânca brun)</simpleChoice>
+                    <simpleChoice identifier="D">schwarz sehen (a vedea totul în negru)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă expresia "fix und fertig sein"?</prompt>
+                    <simpleChoice identifier="A">a fi reparat și gata</simpleChoice>
+                    <simpleChoice identifier="B">a fi epuizat</simpleChoice>
+                    <simpleChoice identifier="C">a fi pregătit</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>kurz und bündig</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați expresia care înseamnă "scurt și cuprinzător": "___ ___ ___"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii cu perechi de adjective?</prompt>
+                    <simpleChoice identifier="A">gut laufen (a merge bine)</simpleChoice>
+                    <simpleChoice identifier="B">klipp und klar (clar și răspicat)</simpleChoice>
+                    <simpleChoice identifier="C">schnell rennen (a alerga repede)</simpleChoice>
+                    <simpleChoice identifier="D">dick und dünn (la bine și la rău)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă "klein beigeben"?</prompt>
+                    <simpleChoice identifier="A">a ceda, a se da bătut</simpleChoice>
+                    <simpleChoice identifier="B">a da puțin</simpleChoice>
+                    <simpleChoice identifier="C">a micșora ceva</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>groß und breit</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați expresia care înseamnă "pe larg, în detaliu": "___ ___ ___"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii cu "gut"?</prompt>
+                    <simpleChoice identifier="A">gut im Bilde sein (a fi la curent)</simpleChoice>
+                    <simpleChoice identifier="B">gut Tag (bună ziua)</simpleChoice>
+                    <simpleChoice identifier="C">sich gut stellen mit (a se pune bine cu)</simpleChoice>
+                    <simpleChoice identifier="D">gut Wetter (vreme bună)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Ce înseamnă "grün hinter den Ohren sein"?</prompt>
+                    <simpleChoice identifier="A">a avea urechi verzi</simpleChoice>
+                    <simpleChoice identifier="B">a fi necopt, neexperimentat</simpleChoice>
+                    <simpleChoice identifier="C">a fi bolnav</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt expresii cu adjective de stare?</prompt>
+                    <simpleChoice identifier="A">lang schlafen (a dormi mult)</simpleChoice>
+                    <simpleChoice identifier="B">sauer auf jemanden sein (a fi supărat pe cineva)</simpleChoice>
+                    <simpleChoice identifier="C">schnell fahren (a conduce repede)</simpleChoice>
+                    <simpleChoice identifier="D">müde sein (a fi obosit)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre expresiile idiomatice cu adjective?</prompt>
+                    <simpleChoice identifier="A">Multe folosesc culori</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar la forma pozitivă</simpleChoice>
+                    <simpleChoice identifier="C">Apar frecvent în perechi</simpleChoice>
+                    <simpleChoice identifier="D">Nu pot fi negate</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

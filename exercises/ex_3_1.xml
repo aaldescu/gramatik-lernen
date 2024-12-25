@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă pentru propoziția "Eu citesc o carte"?</prompt>
+                    <simpleChoice identifier="A">Ich ein Buch lese</simpleChoice>
+                    <simpleChoice identifier="B">Ich lese ein Buch</simpleChoice>
+                    <simpleChoice identifier="C">Ich ein lese Buch</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele reguli despre ordinea cuvintelor în germană sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Verbul conjugat este pe poziția a doua în propoziții principale</simpleChoice>
+                    <simpleChoice identifier="B">Subiectul este întotdeauna primul în propoziție</simpleChoice>
+                    <simpleChoice identifier="C">Verbul este întotdeauna la sfârșit</simpleChoice>
+                    <simpleChoice identifier="D">Complementul direct vine după verb</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Heute gehe ich ins Kino</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Aranjați cuvintele pentru a forma o propoziție corectă: "ich, gehe, heute, ins Kino" (Începeți cu "heute")</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="1">
+                    <prompt>Când începem o propoziție cu un complement de timp, unde trebuie să fie subiectul?</prompt>
+                    <simpleChoice identifier="A">Înaintea verbului</simpleChoice>
+                    <simpleChoice identifier="B">La sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="C">După verb</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă pentru "Maria merge astăzi la școală"?</prompt>
+                    <simpleChoice identifier="A">Maria heute geht zur Schule</simpleChoice>
+                    <simpleChoice identifier="B">Maria geht heute zur Schule</simpleChoice>
+                    <simpleChoice identifier="C">Maria zur Schule heute geht</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE6" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții au ordinea corectă a cuvintelor?</prompt>
+                    <simpleChoice identifier="A">Morgen kommt er nach Hause</simpleChoice>
+                    <simpleChoice identifier="B">Er morgen kommt nach Hause</simpleChoice>
+                    <simpleChoice identifier="C">Der Lehrer gibt den Kindern Hausaufgaben</simpleChoice>
+                    <simpleChoice identifier="D">Die Kinder Hausaufgaben machen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Am Montag hat Peter Deutsch</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE7">
+                    <prompt>Aranjați cuvintele pentru a forma o propoziție corectă: "Peter, hat, am Montag, Deutsch" (Începeți cu expresia de timp)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este poziția corectă a verbului în propoziția principală?</prompt>
+                    <simpleChoice identifier="A">Prima poziție</simpleChoice>
+                    <simpleChoice identifier="B">A doua poziție</simpleChoice>
+                    <simpleChoice identifier="C">Ultima poziție</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații despre TeKaMoLo sunt corecte? (Temporal, Kausal, Modal, Lokal)</prompt>
+                    <simpleChoice identifier="A">Locul (Lokal) vine întotdeauna primul</simpleChoice>
+                    <simpleChoice identifier="B">Timpul (Temporal) vine înaintea locului (Lokal)</simpleChoice>
+                    <simpleChoice identifier="C">Modul (Modal) vine după loc (Lokal)</simpleChoice>
+                    <simpleChoice identifier="D">Este ordinea recomandată pentru complemente în germană</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă pentru "El merge repede acasă astăzi"?</prompt>
+                    <simpleChoice identifier="A">Er geht heute schnell nach Hause</simpleChoice>
+                    <simpleChoice identifier="B">Er geht schnell heute nach Hause</simpleChoice>
+                    <simpleChoice identifier="C">Er geht nach Hause heute schnell</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="1">
+                    <prompt>Care este pronumele personal la dativ pentru "ich"?</prompt>
+                    <simpleChoice identifier="A">mich</simpleChoice>
+                    <simpleChoice identifier="B">mir</simpleChoice>
+                    <simpleChoice identifier="C">mein</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt forme corecte de pronume la dativ?</prompt>
+                    <simpleChoice identifier="A">dir (ție)</simpleChoice>
+                    <simpleChoice identifier="B">sie (ea)</simpleChoice>
+                    <simpleChoice identifier="C">dich (pe tine)</simpleChoice>
+                    <simpleChoice identifier="D">ihm (lui)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>ihr</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Care este pronumele la dativ pentru "sie" (ea)? Completați: "Ich helfe ___." (O ajut.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="1">
+                    <prompt>Care este traducerea corectă pentru "El îmi dă cartea"?</prompt>
+                    <simpleChoice identifier="A">Er gibt mich das Buch</simpleChoice>
+                    <simpleChoice identifier="B">Er gibt ich das Buch</simpleChoice>
+                    <simpleChoice identifier="C">Er gibt mir das Buch</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect pronumele la dativ?</prompt>
+                    <simpleChoice identifier="A">Sie hilft mich</simpleChoice>
+                    <simpleChoice identifier="B">Er dankt uns</simpleChoice>
+                    <simpleChoice identifier="C">Ich folge sie</simpleChoice>
+                    <simpleChoice identifier="D">Wir geben ihm das Buch</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>uns</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Care este pronumele la dativ pentru "wir"? Completați: "Sie hilft ___." (Ea ne ajută.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt verbe care cer pronume la dativ?</prompt>
+                    <simpleChoice identifier="A">helfen (a ajuta)</simpleChoice>
+                    <simpleChoice identifier="B">sehen (a vedea)</simpleChoice>
+                    <simpleChoice identifier="C">antworten (a răspunde)</simpleChoice>
+                    <simpleChoice identifier="D">suchen (a căuta)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Ea îți mulțumește"?</prompt>
+                    <simpleChoice identifier="A">Sie dankt dich</simpleChoice>
+                    <simpleChoice identifier="B">Sie dankt dir</simpleChoice>
+                    <simpleChoice identifier="C">Sie dankt du</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>ihnen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE9">
+                    <prompt>Care este pronumele la dativ pentru "sie" (ei/ele) la plural? Completați: "Ich helfe ___." (Îi ajut.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt corecte despre pronumele la dativ?</prompt>
+                    <simpleChoice identifier="A">Se folosesc cu verbe care cer dativ</simpleChoice>
+                    <simpleChoice identifier="B">Sunt identice cu pronumele la acuzativ</simpleChoice>
+                    <simpleChoice identifier="C">Se folosesc doar la singular</simpleChoice>
+                    <simpleChoice identifier="D">Se folosesc după prepoziții care cer dativ</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

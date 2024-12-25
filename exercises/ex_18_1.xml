@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt construcții cu verbe funcționale?</prompt>
+                    <simpleChoice identifier="A">in Frage kommen (a intra în discuție)</simpleChoice>
+                    <simpleChoice identifier="B">schnell laufen (a alerga repede)</simpleChoice>
+                    <simpleChoice identifier="C">Brot essen (a mânca pâine)</simpleChoice>
+                    <simpleChoice identifier="D">zur Verfügung stehen (a sta la dispoziție)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este construcția corectă pentru "a lua o decizie"?</prompt>
+                    <simpleChoice identifier="A">eine Entscheidung machen</simpleChoice>
+                    <simpleChoice identifier="B">eine Entscheidung treffen</simpleChoice>
+                    <simpleChoice identifier="C">eine Entscheidung haben</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>zum Ausdruck bringen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați construcția funcțională: "seine Gefühle ___ ___ ___" (a-și exprima sentimentele)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care sunt caracteristicile construcțiilor cu verbe funcționale?</prompt>
+                    <simpleChoice identifier="A">Sunt folosite doar în limbajul informal</simpleChoice>
+                    <simpleChoice identifier="B">Conțin un substantiv și un verb</simpleChoice>
+                    <simpleChoice identifier="C">Pot fi înlocuite întotdeauna cu un verb simplu</simpleChoice>
+                    <simpleChoice identifier="D">Sunt frecvente în limbajul formal</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este echivalentul funcțional pentru verbul "beginnen"?</prompt>
+                    <simpleChoice identifier="A">in Gang kommen</simpleChoice>
+                    <simpleChoice identifier="B">Gang machen</simpleChoice>
+                    <simpleChoice identifier="C">Gang haben</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>in Betrieb nehmen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați construcția: "die Maschine ___ ___ ___" (a pune mașina în funcțiune)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe sunt frecvent folosite în construcții funcționale?</prompt>
+                    <simpleChoice identifier="A">bringen (a aduce)</simpleChoice>
+                    <simpleChoice identifier="B">spielen (a se juca)</simpleChoice>
+                    <simpleChoice identifier="C">kommen (a veni)</simpleChoice>
+                    <simpleChoice identifier="D">lachen (a râde)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este construcția corectă pentru "a fi de acord"?</prompt>
+                    <simpleChoice identifier="A">in Einverständnis haben</simpleChoice>
+                    <simpleChoice identifier="B">in Einverständnis sein</simpleChoice>
+                    <simpleChoice identifier="C">mit Einverständnis machen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt prepoziții frecvente în construcțiile funcționale?</prompt>
+                    <simpleChoice identifier="A">mit (cu)</simpleChoice>
+                    <simpleChoice identifier="B">in (în)</simpleChoice>
+                    <simpleChoice identifier="C">nach (după)</simpleChoice>
+                    <simpleChoice identifier="D">zur (la)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre construcțiile cu verbe funcționale?</prompt>
+                    <simpleChoice identifier="A">Au un sens mai precis decât verbele simple</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar în limba vorbită</simpleChoice>
+                    <simpleChoice identifier="C">Pot exprima aspecte ale acțiunii (început, durată, sfârșit)</simpleChoice>
+                    <simpleChoice identifier="D">Nu au reguli fixe de formare</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

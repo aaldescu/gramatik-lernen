@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții sunt la diateza pasivă prezent?</prompt>
+                    <simpleChoice identifier="A">Das Buch wird gelesen</simpleChoice>
+                    <simpleChoice identifier="B">Er liest das Buch</simpleChoice>
+                    <simpleChoice identifier="C">Sie hat das Buch gelesen</simpleChoice>
+                    <simpleChoice identifier="D">Der Brief wird geschrieben</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă la pasiv pentru "Der Lehrer korrigiert die Tests" (Profesorul corectează testele)?</prompt>
+                    <simpleChoice identifier="A">Die Tests werden korrigieren</simpleChoice>
+                    <simpleChoice identifier="B">Die Tests werden korrigiert</simpleChoice>
+                    <simpleChoice identifier="C">Die Tests sind korrigiert</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>wurde gebaut</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați forma de pasiv imperfect: "Das Haus ___ vor einem Jahr ___." (Casa a fost construită acum un an)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale diatezei pasive?</prompt>
+                    <simpleChoice identifier="A">Subiectul este întotdeauna persoana care face acțiunea</simpleChoice>
+                    <simpleChoice identifier="B">Se formează cu werden + participiu trecut</simpleChoice>
+                    <simpleChoice identifier="C">Nu poate fi folosită la trecut</simpleChoice>
+                    <simpleChoice identifier="D">Obiectul din activ devine subiect în pasiv</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă la pasiv perfect pentru "Man hat das Auto repariert"?</prompt>
+                    <simpleChoice identifier="A">Das Auto ist repariert worden</simpleChoice>
+                    <simpleChoice identifier="B">Das Auto wurde repariert</simpleChoice>
+                    <simpleChoice identifier="C">Das Auto hat repariert worden</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>werden geöffnet</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați forma de pasiv prezent: "Die Fenster ___ ___." (Ferestrele sunt deschise)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții sunt la pasiv imperfect?</prompt>
+                    <simpleChoice identifier="A">Der Text wurde übersetzt</simpleChoice>
+                    <simpleChoice identifier="B">Der Text wird übersetzt</simpleChoice>
+                    <simpleChoice identifier="C">Das Lied wurde gesungen</simpleChoice>
+                    <simpleChoice identifier="D">Das Lied ist gesungen worden</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Cum se exprimă autorul acțiunii în pasiv?</prompt>
+                    <simpleChoice identifier="A">Cu prepoziția mit</simpleChoice>
+                    <simpleChoice identifier="B">Cu prepoziția von</simpleChoice>
+                    <simpleChoice identifier="C">Cu prepoziția für</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele timpuri pot fi folosite la pasiv?</prompt>
+                    <simpleChoice identifier="A">Viitor II</simpleChoice>
+                    <simpleChoice identifier="B">Perfect</simpleChoice>
+                    <simpleChoice identifier="C">Mai mult ca perfect</simpleChoice>
+                    <simpleChoice identifier="D">Prezent</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre diateza pasivă?</prompt>
+                    <simpleChoice identifier="A">Se folosește când accentul cade pe acțiune, nu pe autor</simpleChoice>
+                    <simpleChoice identifier="B">Poate fi formată doar cu verbe intranzitive</simpleChoice>
+                    <simpleChoice identifier="C">Necesită participiul trecut al verbului principal</simpleChoice>
+                    <simpleChoice identifier="D">Se folosește doar la prezent</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

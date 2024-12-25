@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>În care situații se folosește Konjunktiv II pentru politețe?</prompt>
+                    <simpleChoice identifier="A">La restaurant: "Ich hätte gern..."</simpleChoice>
+                    <simpleChoice identifier="B">La salut: "Guten Tag!"</simpleChoice>
+                    <simpleChoice identifier="C">La mulțumiri: "Danke schön!"</simpleChoice>
+                    <simpleChoice identifier="D">Pentru cereri: "Könnten Sie mir helfen?"</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma cea mai politicoasă pentru a cere ajutor?</prompt>
+                    <simpleChoice identifier="A">Helfen Sie mir!</simpleChoice>
+                    <simpleChoice identifier="B">Würden Sie mir bitte helfen?</simpleChoice>
+                    <simpleChoice identifier="C">Sie müssen mir helfen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>hätte ich gern</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați comanda la restaurant: "Eine Tasse Kaffee ___ ___ ___." (Aș dori o ceașcă de cafea)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>În care situații se folosește Konjunktiv II pentru sfaturi?</prompt>
+                    <simpleChoice identifier="A">Pentru a da ordine</simpleChoice>
+                    <simpleChoice identifier="B">Cu "An deiner Stelle..."</simpleChoice>
+                    <simpleChoice identifier="C">Pentru a exprima certitudini</simpleChoice>
+                    <simpleChoice identifier="D">Pentru sugestii: "Du könntest..."</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma potrivită pentru a exprima un regret în trecut?</prompt>
+                    <simpleChoice identifier="A">Das hätte ich nicht machen sollen</simpleChoice>
+                    <simpleChoice identifier="B">Das soll ich nicht machen</simpleChoice>
+                    <simpleChoice identifier="C">Das werde ich nicht machen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>würden Sie mir sagen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați întrebarea politicoasă: "___ ___ ___ ___, wie spät es ist?" (Mi-ați putea spune cât este ceasul?)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele exprimă dorințe irealizabile?</prompt>
+                    <simpleChoice identifier="A">Wenn ich doch reich wäre!</simpleChoice>
+                    <simpleChoice identifier="B">Ich will reich sein!</simpleChoice>
+                    <simpleChoice identifier="C">Hätte ich nur mehr Zeit!</simpleChoice>
+                    <simpleChoice identifier="D">Ich werde mehr Zeit haben</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care formă este potrivită pentru a da un sfat indirect?</prompt>
+                    <simpleChoice identifier="A">Du musst das machen</simpleChoice>
+                    <simpleChoice identifier="B">An deiner Stelle würde ich das machen</simpleChoice>
+                    <simpleChoice identifier="C">Mach das sofort!</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>În ce contexte se folosește Konjunktiv II pentru exprimarea politicoasă?</prompt>
+                    <simpleChoice identifier="A">În ordine directe</simpleChoice>
+                    <simpleChoice identifier="B">În cereri formale</simpleChoice>
+                    <simpleChoice identifier="C">În comenzi urgente</simpleChoice>
+                    <simpleChoice identifier="D">În sugestii indirecte</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt utilizări tipice ale Konjunktiv II?</prompt>
+                    <simpleChoice identifier="A">Exprimarea regretelor</simpleChoice>
+                    <simpleChoice identifier="B">Darea de ordine</simpleChoice>
+                    <simpleChoice identifier="C">Formularea de cereri politicoase</simpleChoice>
+                    <simpleChoice identifier="D">Descrierea realității</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

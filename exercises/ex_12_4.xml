@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt reguli pentru ordinea cuvintelor în propoziții subordonate?</prompt>
+                    <simpleChoice identifier="A">Verbul finit este la sfârșit</simpleChoice>
+                    <simpleChoice identifier="B">Verbul finit este pe poziția a doua</simpleChoice>
+                    <simpleChoice identifier="C">Subiectul este mereu după verb</simpleChoice>
+                    <simpleChoice identifier="D">Conectorul este la început</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă pentru: "El spune că mâine va merge la școală"?</prompt>
+                    <simpleChoice identifier="A">Er sagt, dass er wird morgen in die Schule gehen</simpleChoice>
+                    <simpleChoice identifier="B">Er sagt, dass er morgen in die Schule gehen wird</simpleChoice>
+                    <simpleChoice identifier="C">Er sagt, dass wird er morgen in die Schule gehen</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>weil ich krank gewesen bin</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați propoziția subordonată: "Ich konnte nicht kommen, ___ ___ ___ ___ ___." (Nu am putut veni pentru că am fost bolnav)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt adevărate despre ordinea cuvintelor în propoziții cu verbe modale?</prompt>
+                    <simpleChoice identifier="A">Verbul modal este la început</simpleChoice>
+                    <simpleChoice identifier="B">Infinitivul este la sfârșit</simpleChoice>
+                    <simpleChoice identifier="C">Verbul modal este după infinitiv</simpleChoice>
+                    <simpleChoice identifier="D">În subordonate, verbul modal este după infinitiv</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă în propoziția cu verb separat: "El se trezește devreme"?</prompt>
+                    <simpleChoice identifier="A">Er steht früh auf</simpleChoice>
+                    <simpleChoice identifier="B">Er auf früh steht</simpleChoice>
+                    <simpleChoice identifier="C">Er steht auf früh</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>nachdem ich aufgestanden war</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați propoziția temporală: "Ich habe gefrühstückt, ___ ___ ___ ___." (Am luat micul dejun după ce m-am trezit)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt corecte despre ordinea în propoziții cu mai multe verbe?</prompt>
+                    <simpleChoice identifier="A">Verbul auxiliar este ultimul în subordonate</simpleChoice>
+                    <simpleChoice identifier="B">Participiul este primul verb</simpleChoice>
+                    <simpleChoice identifier="C">Infinitivul vine înaintea verbului auxiliar în principale</simpleChoice>
+                    <simpleChoice identifier="D">Verbele sunt mereu împreună</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Unde se plasează negația "nicht" în propoziția principală?</prompt>
+                    <simpleChoice identifier="A">La început</simpleChoice>
+                    <simpleChoice identifier="B">La sfârșitul câmpului medial</simpleChoice>
+                    <simpleChoice identifier="C">Imediat după verb</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt adevărate despre câmpurile propoziționale în germană?</prompt>
+                    <simpleChoice identifier="A">Câmpul inițial poate conține mai multe elemente</simpleChoice>
+                    <simpleChoice identifier="B">Verbul finit este în câmpul verbal în subordonate</simpleChoice>
+                    <simpleChoice identifier="C">Câmpul final nu poate conține verbe</simpleChoice>
+                    <simpleChoice identifier="D">Câmpul medial conține majoritatea informațiilor</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre ordinea în propoziții complexe?</prompt>
+                    <simpleChoice identifier="A">Subordonatele pot fi înaintea principalei</simpleChoice>
+                    <simpleChoice identifier="B">Nu pot exista mai mult de două propoziții</simpleChoice>
+                    <simpleChoice identifier="C">Fiecare subordonată are propriile reguli de ordine</simpleChoice>
+                    <simpleChoice identifier="D">Verbul este mereu pe poziția a doua</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

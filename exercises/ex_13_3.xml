@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale construcțiilor participiale?</prompt>
+                    <simpleChoice identifier="A">Pot înlocui propoziții subordonate</simpleChoice>
+                    <simpleChoice identifier="B">Necesită întotdeauna un verb auxiliar</simpleChoice>
+                    <simpleChoice identifier="C">Nu pot fi folosite în scris</simpleChoice>
+                    <simpleChoice identifier="D">Pot scurta textul</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este construcția participială corectă pentru "Cartea, care a fost scrisă de autor"?</prompt>
+                    <simpleChoice identifier="A">Das Buch, schreibend vom Autor</simpleChoice>
+                    <simpleChoice identifier="B">Das vom Autor geschriebene Buch</simpleChoice>
+                    <simpleChoice identifier="C">Das Buch, das schreibt vom Autor</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>in der Sonne liegende</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați construcția participială: "Die ___ ___ ___ ___ Katze schläft." (Pisica care stă la soare doarme)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt avantaje ale construcțiilor participiale?</prompt>
+                    <simpleChoice identifier="A">Sunt mai ușor de înțeles</simpleChoice>
+                    <simpleChoice identifier="B">Fac textul mai concis</simpleChoice>
+                    <simpleChoice identifier="C">Sunt mai informale</simpleChoice>
+                    <simpleChoice identifier="D">Evită repetițiile</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă într-o construcție participială atributivă?</prompt>
+                    <simpleChoice identifier="A">participiu + substantiv</simpleChoice>
+                    <simpleChoice identifier="B">substantiv + participiu</simpleChoice>
+                    <simpleChoice identifier="C">verb + participiu</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>aus Deutschland kommende</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați construcția participială: "Der ___ ___ ___ ___ Student spricht gut Englisch." (Studentul care vine din Germania vorbește bine engleza)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt corecte despre construcțiile participiale?</prompt>
+                    <simpleChoice identifier="A">Se folosesc mai mult în limbajul scris</simpleChoice>
+                    <simpleChoice identifier="B">Nu pot conține complemente</simpleChoice>
+                    <simpleChoice identifier="C">Pot înlocui propoziții relative</simpleChoice>
+                    <simpleChoice identifier="D">Nu se declină niciodată</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Cum se transformă "Der Mann, der am Tisch sitzt" în construcție participială?</prompt>
+                    <simpleChoice identifier="A">Der Mann, sitzend am Tisch</simpleChoice>
+                    <simpleChoice identifier="B">Der am Tisch sitzende Mann</simpleChoice>
+                    <simpleChoice identifier="C">Der Mann, gesessen am Tisch</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt tipuri de construcții participiale?</prompt>
+                    <simpleChoice identifier="A">Construcții temporale simple</simpleChoice>
+                    <simpleChoice identifier="B">Construcții atributive</simpleChoice>
+                    <simpleChoice identifier="C">Construcții modale simple</simpleChoice>
+                    <simpleChoice identifier="D">Construcții adverbiale</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre construcțiile participiale?</prompt>
+                    <simpleChoice identifier="A">Sunt frecvente în limbajul formal</simpleChoice>
+                    <simpleChoice identifier="B">Nu pot conține negații</simpleChoice>
+                    <simpleChoice identifier="C">Pot avea complemente și determinanți</simpleChoice>
+                    <simpleChoice identifier="D">Se folosesc doar cu participiul prezent</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

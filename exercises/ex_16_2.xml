@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt forme corecte de mai mult ca perfect?</prompt>
+                    <simpleChoice identifier="A">ich hatte gelesen (citisem)</simpleChoice>
+                    <simpleChoice identifier="B">ich habe gelesen (am citit)</simpleChoice>
+                    <simpleChoice identifier="C">ich werde lesen (voi citi)</simpleChoice>
+                    <simpleChoice identifier="D">er war gekommen (venise)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Ea învățase germană"?</prompt>
+                    <simpleChoice identifier="A">Sie hat Deutsch gelernt</simpleChoice>
+                    <simpleChoice identifier="B">Sie hatte Deutsch gelernt</simpleChoice>
+                    <simpleChoice identifier="C">Sie war Deutsch gelernt</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>war eingeschlafen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu forma de mai mult ca perfect: "Er ___ ___." (El adormise)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre mai mult ca perfectul?</prompt>
+                    <simpleChoice identifier="A">Se formează cu werden</simpleChoice>
+                    <simpleChoice identifier="B">Folosește auxiliarele la imperfect</simpleChoice>
+                    <simpleChoice identifier="C">Nu poate fi negat</simpleChoice>
+                    <simpleChoice identifier="D">Exprimă o acțiune anterioară altei acțiuni trecute</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este traducerea pentru "Nachdem ich gegessen hatte, ging ich schlafen"?</prompt>
+                    <simpleChoice identifier="A">După ce mâncasem, m-am dus la culcare</simpleChoice>
+                    <simpleChoice identifier="B">După ce mănânc, mă duc la culcare</simpleChoice>
+                    <simpleChoice identifier="C">După ce am mâncat, mă duc la culcare</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>hatte geschrieben</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu forma de mai mult ca perfect: "Ich ___ den Brief ___." (Eu scrisesem scrisoarea)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe folosesc "war" la mai mult ca perfect?</prompt>
+                    <simpleChoice identifier="A">gehen (a merge)</simpleChoice>
+                    <simpleChoice identifier="B">schreiben (a scrie)</simpleChoice>
+                    <simpleChoice identifier="C">aufstehen (a se scula)</simpleChoice>
+                    <simpleChoice identifier="D">lesen (a citi)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este ordinea corectă în "El spusese că vine"?</prompt>
+                    <simpleChoice identifier="A">Er hat gesagt, dass er kommt</simpleChoice>
+                    <simpleChoice identifier="B">Er hatte gesagt, dass er kommt</simpleChoice>
+                    <simpleChoice identifier="C">Er war gesagt, dass er kommt</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt contexte tipice pentru mai mult ca perfect?</prompt>
+                    <simpleChoice identifier="A">Acțiuni viitoare</simpleChoice>
+                    <simpleChoice identifier="B">Propoziții cu nachdem</simpleChoice>
+                    <simpleChoice identifier="C">Acțiuni prezente</simpleChoice>
+                    <simpleChoice identifier="D">Relatarea unor evenimente anterioare</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre mai mult ca perfectul?</prompt>
+                    <simpleChoice identifier="A">Se formează cu hatte sau war</simpleChoice>
+                    <simpleChoice identifier="B">Se folosește doar în limba vorbită</simpleChoice>
+                    <simpleChoice identifier="C">Participiul trecut stă la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="D">Nu poate fi folosit în propoziții subordonate</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

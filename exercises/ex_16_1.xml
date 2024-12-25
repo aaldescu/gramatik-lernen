@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe formează perfectul cu "sein"?</prompt>
+                    <simpleChoice identifier="A">fahren (a merge cu un mijloc de transport)</simpleChoice>
+                    <simpleChoice identifier="B">lesen (a citi)</simpleChoice>
+                    <simpleChoice identifier="C">singen (a cânta)</simpleChoice>
+                    <simpleChoice identifier="D">aufstehen (a se scula)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă la perfect pentru "Ich lerne Deutsch"?</prompt>
+                    <simpleChoice identifier="A">Ich bin Deutsch gelernt</simpleChoice>
+                    <simpleChoice identifier="B">Ich habe Deutsch gelernt</simpleChoice>
+                    <simpleChoice identifier="C">Ich ist Deutsch gelernt</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>ist gekommen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completați cu forma de perfect: "Er ___ ___." (El a venit)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe formează perfectul cu "haben"?</prompt>
+                    <simpleChoice identifier="A">einschlafen (a adormi)</simpleChoice>
+                    <simpleChoice identifier="B">arbeiten (a munci)</simpleChoice>
+                    <simpleChoice identifier="C">werden (a deveni)</simpleChoice>
+                    <simpleChoice identifier="D">spielen (a se juca)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Sie sind nach Berlin gefahren"?</prompt>
+                    <simpleChoice identifier="A">Ei au mers la Berlin</simpleChoice>
+                    <simpleChoice identifier="B">Ei merg la Berlin</simpleChoice>
+                    <simpleChoice identifier="C">Ei vor merge la Berlin</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>habe geschlafen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați cu forma de perfect: "Ich ___ ___." (Eu am dormit)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt reguli pentru formarea perfectului?</prompt>
+                    <simpleChoice identifier="A">Verbele de mișcare folosesc sein</simpleChoice>
+                    <simpleChoice identifier="B">Toate verbele folosesc haben</simpleChoice>
+                    <simpleChoice identifier="C">Verbele reflexive folosesc haben</simpleChoice>
+                    <simpleChoice identifier="D">Toate verbele folosesc sein</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este participiul trecut corect al verbului "sprechen"?</prompt>
+                    <simpleChoice identifier="A">sprecht</simpleChoice>
+                    <simpleChoice identifier="B">gesprochen</simpleChoice>
+                    <simpleChoice identifier="C">spracht</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele verbe formează participiul trecut neregulat?</prompt>
+                    <simpleChoice identifier="A">machen (ge-mach-t)</simpleChoice>
+                    <simpleChoice identifier="B">gehen (ge-gang-en)</simpleChoice>
+                    <simpleChoice identifier="C">lernen (ge-lern-t)</simpleChoice>
+                    <simpleChoice identifier="D">singen (ge-sung-en)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre perfectul în germană?</prompt>
+                    <simpleChoice identifier="A">Se formează cu haben sau sein</simpleChoice>
+                    <simpleChoice identifier="B">Se folosește doar în limba scrisă</simpleChoice>
+                    <simpleChoice identifier="C">Participiul trecut stă la sfârșitul propoziției</simpleChoice>
+                    <simpleChoice identifier="D">Nu poate fi negat</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

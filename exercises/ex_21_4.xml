@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt variante dialectale bavareze?</prompt>
+                    <simpleChoice identifier="A">Grüß Gott (Guten Tag)</simpleChoice>
+                    <simpleChoice identifier="B">Moin (Guten Morgen)</simpleChoice>
+                    <simpleChoice identifier="C">Grüezi (Guten Tag)</simpleChoice>
+                    <simpleChoice identifier="D">Servus (Hallo/Tschüss)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este varianta elvețiană pentru "Fahrrad"?</prompt>
+                    <simpleChoice identifier="A">Rad</simpleChoice>
+                    <simpleChoice identifier="B">Velo</simpleChoice>
+                    <simpleChoice identifier="C">Drahtesel</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Jänner</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Care este varianta austriacă pentru "Januar"? "___"</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale dialectelor germane?</prompt>
+                    <simpleChoice identifier="A">Sunt identice cu germana standard</simpleChoice>
+                    <simpleChoice identifier="B">Au pronunție specifică</simpleChoice>
+                    <simpleChoice identifier="C">Nu au reguli gramaticale</simpleChoice>
+                    <simpleChoice identifier="D">Variază regional</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>Care este varianta austriacă pentru "Tomate"?</prompt>
+                    <simpleChoice identifier="A">Paradeiser</simpleChoice>
+                    <simpleChoice identifier="B">Tomätchen</simpleChoice>
+                    <simpleChoice identifier="C">Rote Beere</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>Grüezi miteinand</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completați salutul elvețian: "___ ___" (Bună ziua tuturor)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt variante dialectale pentru "Auf Wiedersehen"?</prompt>
+                    <simpleChoice identifier="A">Pfiat di (bavarez)</simpleChoice>
+                    <simpleChoice identifier="B">Danke (standard)</simpleChoice>
+                    <simpleChoice identifier="C">Ade (elvețian)</simpleChoice>
+                    <simpleChoice identifier="D">Bitte (standard)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="1">
+                    <prompt>Care este varianta nordică pentru "Guten Morgen"?</prompt>
+                    <simpleChoice identifier="A">Servus</simpleChoice>
+                    <simpleChoice identifier="B">Moin</simpleChoice>
+                    <simpleChoice identifier="C">Grüezi</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale germanei elvețiene?</prompt>
+                    <simpleChoice identifier="A">Folosește ß</simpleChoice>
+                    <simpleChoice identifier="B">Are multe împrumuturi din franceză</simpleChoice>
+                    <simpleChoice identifier="C">Este identică cu germana standard</simpleChoice>
+                    <simpleChoice identifier="D">Folosește diminutive în -li</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații sunt adevărate despre variațiile dialectale în germană?</prompt>
+                    <simpleChoice identifier="A">Reflectă identitatea regională</simpleChoice>
+                    <simpleChoice identifier="B">Sunt folosite doar în scris</simpleChoice>
+                    <simpleChoice identifier="C">Au vocabular specific</simpleChoice>
+                    <simpleChoice identifier="D">Nu sunt folosite în comunicarea orală</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="1">
+                    <prompt>Care este articolul hotărât corect pentru substantivul "Buch" (carte)?</prompt>
+                    <simpleChoice identifier="A">der</simpleChoice>
+                    <simpleChoice identifier="B">die</simpleChoice>
+                    <simpleChoice identifier="C">das</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+            <responseProcessing>
+                <responseCondition>
+                    <responseIf>
+                        <match>
+                            <variable identifier="RESPONSE1"/>
+                            <correct identifier="RESPONSE1"/>
+                        </match>
+                        <setOutcomeValue identifier="SCORE">
+                            <baseValue baseType="float">1.0</baseValue>
+                        </setOutcomeValue>
+                    </responseIf>
+                </responseCondition>
+            </responseProcessing>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="1">
+                    <prompt>Care este genul substantivului "Mann" în limba germană?</prompt>
+                    <simpleChoice identifier="A">masculin</simpleChoice>
+                    <simpleChoice identifier="B">feminin</simpleChoice>
+                    <simpleChoice identifier="C">neutru</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>die</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Completează cu articolul hotărât corect: "_____ Sonne scheint." (Soarele strălucește.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele substantive folosesc articolul "das"?</prompt>
+                    <simpleChoice identifier="A">Kind (copil)</simpleChoice>
+                    <simpleChoice identifier="B">Frau (femeie)</simpleChoice>
+                    <simpleChoice identifier="C">Buch (carte)</simpleChoice>
+                    <simpleChoice identifier="D">Mann (bărbat)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="1">
+                    <prompt>În care caz NU se folosește articolul hotărât în limba germană?</prompt>
+                    <simpleChoice identifier="A">Pentru substantive specifice și cunoscute</simpleChoice>
+                    <simpleChoice identifier="B">Pentru substantive folosite la general, fără referință specifică</simpleChoice>
+                    <simpleChoice identifier="C">Pentru concepte unice (ex: die Sonne)</simpleChoice>
+                    <simpleChoice identifier="D">Pentru generalizări despre specii sau categorii</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>der</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE6">
+                    <prompt>Completează cu articolul hotărât corect: "_____ Computer ist neu." (Computerul este nou.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE7" shuffle="true" maxChoices="1">
+                    <prompt>Care este traducerea corectă pentru "Pisica doarme."?</prompt>
+                    <simpleChoice identifier="A">Der Katze schläft.</simpleChoice>
+                    <simpleChoice identifier="B">Die Katze schläft.</simpleChoice>
+                    <simpleChoice identifier="C">Das Katze schläft.</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>die</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE8">
+                    <prompt>Completează cu articolul hotărât corect: "_____ Tasche ist groß." (Geanta este mare.)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="1">
+                    <prompt>Care este regula corectă pentru utilizarea articolelor hotărâte în germană?</prompt>
+                    <simpleChoice identifier="A">Se folosesc pentru substantive specifice și cunoscute</simpleChoice>
+                    <simpleChoice identifier="B">Se folosesc doar pentru ființe</simpleChoice>
+                    <simpleChoice identifier="C">Se folosesc doar pentru obiecte</simpleChoice>
+                    <simpleChoice identifier="D">Nu se folosesc niciodată cu nume de țări</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații despre articolele hotărâte în germană sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Articolul "der" se folosește pentru substantive masculine</simpleChoice>
+                    <simpleChoice identifier="B">Articolul "die" se folosește doar pentru plural</simpleChoice>
+                    <simpleChoice identifier="C">Articolul "das" se folosește pentru toate obiectele</simpleChoice>
+                    <simpleChoice identifier="D">Articolele hotărâte indică substantive specifice sau cunoscute</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>

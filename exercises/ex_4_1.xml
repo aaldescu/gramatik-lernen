@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1">
+    <assessmentItems>
+        <assessmentItem identifier="ITEM1">
+            <responseDeclaration identifier="RESPONSE1" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE1" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă la acuzativ pentru "der Apfel" (mărul)?</prompt>
+                    <simpleChoice identifier="A">der Apfel</simpleChoice>
+                    <simpleChoice identifier="B">den Apfel</simpleChoice>
+                    <simpleChoice identifier="C">dem Apfel</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM2">
+            <responseDeclaration identifier="RESPONSE2" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE2" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt verbe care cer acuzativ?</prompt>
+                    <simpleChoice identifier="A">sehen (a vedea)</simpleChoice>
+                    <simpleChoice identifier="B">helfen (a ajuta)</simpleChoice>
+                    <simpleChoice identifier="C">danken (a mulțumi)</simpleChoice>
+                    <simpleChoice identifier="D">haben (a avea)</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM3">
+            <responseDeclaration identifier="RESPONSE3" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>eine</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE3">
+                    <prompt>Care este forma de acuzativ pentru articolul nehotărât feminin "eine" în propoziția "Ich sehe ___ Katze" (Văd o pisică)?</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM4">
+            <responseDeclaration identifier="RESPONSE4" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE4" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "Eu citesc cartea"?</prompt>
+                    <simpleChoice identifier="A">Ich lese der Buch</simpleChoice>
+                    <simpleChoice identifier="B">Ich lese dem Buch</simpleChoice>
+                    <simpleChoice identifier="C">Ich lese das Buch</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM5">
+            <responseDeclaration identifier="RESPONSE5" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE5" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele afirmații despre cazul acuzativ sunt corecte?</prompt>
+                    <simpleChoice identifier="A">Este cazul complementului direct</simpleChoice>
+                    <simpleChoice identifier="B">Toate articolele se schimbă la acuzativ</simpleChoice>
+                    <simpleChoice identifier="C">Se folosește doar cu verbe</simpleChoice>
+                    <simpleChoice identifier="D">Doar articolul masculin se schimbă la singular</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM6">
+            <responseDeclaration identifier="RESPONSE6" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE6" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma corectă pentru "El iubește femeia"?</prompt>
+                    <simpleChoice identifier="A">Er liebt die Frau</simpleChoice>
+                    <simpleChoice identifier="B">Er liebt der Frau</simpleChoice>
+                    <simpleChoice identifier="C">Er liebt den Frau</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM7">
+            <responseDeclaration identifier="RESPONSE7" cardinality="single" baseType="string">
+                <correctResponse>
+                    <value>einen</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <textEntryInteraction responseIdentifier="RESPONSE7">
+                    <prompt>Completați cu articolul nehotărât corect la acuzativ: "Ich kaufe ___ Computer" (Cumpăr un computer)</prompt>
+                </textEntryInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM8">
+            <responseDeclaration identifier="RESPONSE8" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>B</value>
+                    <value>D</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE8" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele propoziții folosesc corect acuzativul?</prompt>
+                    <simpleChoice identifier="A">Ich sehe der Mann</simpleChoice>
+                    <simpleChoice identifier="B">Sie kauft einen Tisch</simpleChoice>
+                    <simpleChoice identifier="C">Er findet das der Schlüssel</simpleChoice>
+                    <simpleChoice identifier="D">Wir haben die Bücher</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM9">
+            <responseDeclaration identifier="RESPONSE9" cardinality="single" baseType="identifier">
+                <correctResponse>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE9" shuffle="true" maxChoices="1">
+                    <prompt>Care este forma de acuzativ corectă pentru "ein Kind" (un copil)?</prompt>
+                    <simpleChoice identifier="A">einen Kind</simpleChoice>
+                    <simpleChoice identifier="B">eine Kind</simpleChoice>
+                    <simpleChoice identifier="C">ein Kind</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+
+        <assessmentItem identifier="ITEM10">
+            <responseDeclaration identifier="RESPONSE10" cardinality="multiple" baseType="identifier">
+                <correctResponse>
+                    <value>A</value>
+                    <value>C</value>
+                </correctResponse>
+            </responseDeclaration>
+            <itemBody>
+                <choiceInteraction responseIdentifier="RESPONSE10" shuffle="true" maxChoices="2">
+                    <prompt>Care dintre următoarele sunt caracteristici ale cazului acuzativ?</prompt>
+                    <simpleChoice identifier="A">Se folosește pentru obiectul direct</simpleChoice>
+                    <simpleChoice identifier="B">Schimbă toate articolele la plural</simpleChoice>
+                    <simpleChoice identifier="C">Apare după anumite prepoziții</simpleChoice>
+                    <simpleChoice identifier="D">Se folosește pentru subiect</simpleChoice>
+                </choiceInteraction>
+            </itemBody>
+        </assessmentItem>
+    </assessmentItems>
+</assessmentTest>
